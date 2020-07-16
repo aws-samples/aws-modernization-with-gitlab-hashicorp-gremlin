@@ -1,0 +1,30 @@
+image: "alpine:latest"
+
+stages:
+  - format-tf
+  - validate-tf
+
+before_script:
+  - wget -q https://releases.hashicorp.com/terraform/0.12.28/terraform_0.12.28_linux_amd64.zip -O terraform.zip && unzip terraform.zip && mv terraform /bin
+  - wget -q https://github.com/terraform-linters/tflint/releases/download/v0.16.2/tflint_linux_amd64.zip -O tflint.zip && unzip tflint.zip && mv tflint /bin
+
+tf_format:
+  stage: format-tf
+  script: |
+    #!/bin/sh
+    check_fmt=$(find . -name "*.tf" | xargs -I{} terraform fmt -write=false {} | sed '/^\s*$/d')
+    if test -n "$check_fmt"; then
+      echo "____Terraform format check failed:"
+      echo ""
+      echo $check_fmt
+      echo "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+      exit 1
+    fi
+
+tf_validate:
+  stage: validate-tf
+  script: |
+    #!/bin/sh
+    terraform init -backend=false
+    terraform validate . && tflint 
+
