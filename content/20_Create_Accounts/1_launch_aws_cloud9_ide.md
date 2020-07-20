@@ -55,6 +55,9 @@ We will need to attach a Role to Cloud9 so we can have access to A
 - In the **IAM role** pull down, select **TeamRoleInstanceProfile**
 - To the right, click **Apply**
 
+
+
+
 # Update IAM settings for your Workspace
 
 - Return to your workspace and click the gear icon (in top right corner), or click to open a new tab and choose "Open Preferences"

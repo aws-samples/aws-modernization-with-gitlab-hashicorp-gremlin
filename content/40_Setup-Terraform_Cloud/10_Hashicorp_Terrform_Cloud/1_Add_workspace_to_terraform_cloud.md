@@ -103,4 +103,3 @@ From the Workspaces tab select __+ New Workspace__  https://app.terraform.io/app
 Wait on this screen till you see __Configuration uploaded successfully__ before proceeding to the next lab
 {{% /notice %}}
 
-
