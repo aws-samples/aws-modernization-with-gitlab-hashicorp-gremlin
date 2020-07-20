@@ -72,10 +72,27 @@ any existing credentials file:
 rm -vf ${HOME}/.aws/credentials
 ```
 
+Set default credentials to use workshop user
+
 ```sh
+aws configure
+```sh
+
+Set __AWS ACCESS KEY ID__  Paste ACCESS KEY (Copy from open tab)
+
+Set __AWS SECRET ACCESS KEY__  Paste SECRET KEY (Copy from open tab)
+
+Set __Default REGION NAME__ to : `us-east-1`
+
+Set __Default OUTPUT FORMAT__ to : None (Just hit enter)
+
+Expected Output:
+![Step 9](/images/lab1/set_c9_aws_creds.png)
+
+
+Add AWS_REGION Variable to bash_profile
+```
 echo "export AWS_REGION=us-east-1" | tee -a ~/.bash_profile
-aws configure set default.region ${AWS_REGION}
-aws configure get default.region
 ```
 
 ### Validate the IAM role
@@ -87,14 +104,10 @@ Just run this to try it out yourself.
 ```
 aws sts get-caller-identity
 ```
-
-Here is a script that will validate you have the right role.
-
-```
-aws sts get-caller-identity --query Arn | grep TeamRole -q && echo "IAM role valid" || echo "IAM role NOT valid"
-```
+Expected Output:
+![Step 9](/images/lab1/validate_user_via_sts.png)
 
 {{% notice warning %}}
-If the IAM role is not valid, <span style="color: red;">**DO NOT PROCEED**</span>. Go back and confirm the steps on this page.
+If credentials do not reflect the __workshop user__, <span style="color: red;">**DO NOT PROCEED**</span>. Go back and confirm the steps on this page.
 {{% /notice %}}
 
