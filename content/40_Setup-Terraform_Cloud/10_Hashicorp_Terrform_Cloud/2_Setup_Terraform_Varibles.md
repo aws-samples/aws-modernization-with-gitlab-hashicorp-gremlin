@@ -56,7 +56,7 @@ Set to __Sensitive__
 
 Next:
 
-Set  -l_AWS_DEFAULT_REGION__ set to `us-east-1`
+Set  `AWS_DEFAULT_REGION`  set to `us-east-1`
 
 Expected Output:
 ![Step 11](/images/lab3/tf_env_vars_complete.png)
