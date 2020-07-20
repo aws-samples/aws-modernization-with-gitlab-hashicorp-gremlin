@@ -10,5 +10,139 @@
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>3.0. Add Workspace</title>
+      <link>/40_setup-terraform_cloud/10_hashicorp_terrform_cloud/1_add_workspace_to_terraform_cloud.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/40_setup-terraform_cloud/10_hashicorp_terrform_cloud/1_add_workspace_to_terraform_cloud.html</guid>
+      <description>Connect Gitlab as VCS source Switch tabs to Terraform Cloud (https://app.terraform.io/)
+Step 1: On Terraform Cloud, Begin Adding a New VCS Provider
+If you don&amp;rsquo;t already have an your organization, add organization (you can use your fistname and laster inital for example Jane Doe -&amp;gt; janed )
+ Open Terraform Cloud in your browser and navigate to the Settings &amp;gt; VCS Providers page for your organization. Click the &amp;ldquo;Add VCS Provider&amp;rdquo; button.</description>
+    </item>
+    
+    <item>
+      <title>AWS Event Engine</title>
+      <link>/10_getting_started/1_aws_event_engine.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10_getting_started/1_aws_event_engine.html</guid>
+      <description>Logging into AWS Event Engine To complete this workshop, you are provided with an AWS account via the AWS Event Engine service. A 12-digit hash will be provided to you by event staff - this is your unique access code. eg:
+e8476543c00e  Go to https://dashboard.eventengine.run to log into AWS Event Engine.   Enter your unique 12-digit hash code and choose Accept Terms &amp;amp; Login.   Choose AWS Console, then Open AWS Console.</description>
+    </item>
+    
+    <item>
+      <title>Cloud9</title>
+      <link>/20_create_accounts/1_launch_aws_cloud9_ide.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/20_create_accounts/1_launch_aws_cloud9_ide.html</guid>
+      <description>Starting AWS Cloud9 IDE AWS Cloud9 is a cloud-based integrated development environment (IDE) that lets you write, run, and debug your code with just a browser. It includes a code editor, debugger, and terminal. Cloud9 comes pre-packaged with essential tools for popular programming languages and the AWS Command Line Interface (CLI) pre-installed so you don’t need to install files or configure your laptop for this workshop.
+Cloud9 works best with Chrome or Firefox, not Safari.</description>
+    </item>
+    
+    <item>
+      <title>Create an SSH Key via Cloud9 </title>
+      <link>/30_setup-gitlab/10_gitlab/1_create_ssh_key.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/30_setup-gitlab/10_gitlab/1_create_ssh_key.html</guid>
+      <description>Create an SSH Key From terminal:
+ssh-keygen Expected output: Upload your ssh key to Gitlab
+cat /home/ec2-user/.ssh/id_rsa.pub Expected output: Copy your key to the clipboard</description>
+    </item>
+    
+    <item>
+      <title>3.1. Setup Terraform Varibles</title>
+      <link>/40_setup-terraform_cloud/10_hashicorp_terrform_cloud/2_setup_terraform_varibles.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/40_setup-terraform_cloud/10_hashicorp_terrform_cloud/2_setup_terraform_varibles.html</guid>
+      <description>Switch to Cloud9 tab
+ https://console.aws.amazon.com/ec2/v2/home?region=us-east-2#Instances:search=aws-cloud9
+Add AWS Varibles Proceed on the Terraform Cloud tab
+ Click Configure variables
+In the Environment Variables we will add three variables
+AWS_ACCESS_KEY_ID
+AWS_SECRET_ACCESS_KEY
+AWS_DEFAULT_REGION set to us-east-1</description>
+    </item>
+    
+    <item>
+      <title>AWS Workshop Account</title>
+      <link>/10_getting_started/2_aws_workshop_account.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10_getting_started/2_aws_workshop_account.html</guid>
+      <description>Your account must have the ability to create new IAM roles and scope other IAM permissions.
+ Create an account  If you don&amp;rsquo;t already have an AWS account with Administrator access: create one now
+ Once you have an AWS account, ensure you are following the remaining workshop steps as an IAM user with administrator access to the AWS account: Create a new IAM user to use for the workshop</description>
+    </item>
+    
+    <item>
+      <title>Gitlab</title>
+      <link>/20_create_accounts/2_create_gitlab_account.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/20_create_accounts/2_create_gitlab_account.html</guid>
+      <description>Login to Gitlab If you do not already have a Gitlab account Register here
+If you are a exsiting user Login in here</description>
+    </item>
+    
+    <item>
+      <title>Upload key to Gitlab</title>
+      <link>/30_setup-gitlab/10_gitlab/2_upload_key_to_gitlab.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/30_setup-gitlab/10_gitlab/2_upload_key_to_gitlab.html</guid>
+      <description>Navigate to the profile section of gitlab https://gitlab.com/profile/keys
+ Paste the key into the textbox provided Title the key cloud9-ide-key Choose Add Key Navigate back to your project in Gitlab -&amp;gt; https://gitlab.com/your-username/aws-devops-workshop  NOTE: Be sure to replace your-name with your gitlab username
+TIP: Do these step from cloud9 (Switch tabs to your cloud9 terminal)</description>
+    </item>
+    
+    <item>
+      <title>Create Gitlab Repo</title>
+      <link>/30_setup-gitlab/10_gitlab/3_create_gitlab_repo.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/30_setup-gitlab/10_gitlab/3_create_gitlab_repo.html</guid>
+      <description> Create Gitlab Repo Create a new project at https://gitlab.com/projects/new
+ Set the Project name to aws-devops-workshop Choose Create Project  Configure Git form your Cloud9 Git global setup git config --global user.name &#34;Your Name&#34; git config --global user.email &#34;email@domain.com&#34; Clone your repository git clone git@gitlab.com:/aws-devops-workshop.git cd aws-devops-workshop echo &#34;My AWS DevOps Workshop Repo&#34;  README.md git add README.md git commit -m &#34;add README&#34; git push -u origin master </description>
+    </item>
+    
+    <item>
+      <title>Enable Gitlab CI</title>
+      <link>/30_setup-gitlab/10_gitlab/4_create_gitlab_ci.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/30_setup-gitlab/10_gitlab/4_create_gitlab_ci.html</guid>
+      <description> Create Gitlab CI Configuration From terminal:
+Get the CI config file via wget
+wget https://gitlab.com/gitlab-com/alliances/aws/sandbox-projects/global-devops-workshop/-/raw/workshop/lab_assets/gitlab/gitlab-ci.yml -O .gitlab-ci.yml Add to git and push to repository
+git add .gitlab-ci.yml git commit -a -m&#39;Enable Gitlab CI&#39; git push  </description>
+    </item>
+    
+    <item>
+      <title>Terraform</title>
+      <link>/20_create_accounts/3_create_hashicop_terraform_account.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/20_create_accounts/3_create_hashicop_terraform_account.html</guid>
+      <description>Login to Terraform cloud If you do not already have a Terraform Cloud account Register here
+If you are a exsiting user Login in here
+Create organization name it aws-devops-workshop. If you plan on using this org long term you can use your fistname and last inital for example: (JaneDoe janed)</description>
+    </item>
+    
+    <item>
+      <title>Gremlin</title>
+      <link>/20_create_accounts/4_create_gremlin_account.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/20_create_accounts/4_create_gremlin_account.html</guid>
+      <description>Login to Gremlin If you do not already have a Gremlin account Register here
+If you are a exsiting user Login in here</description>
+    </item>
+    
   </channel>
 </rss>

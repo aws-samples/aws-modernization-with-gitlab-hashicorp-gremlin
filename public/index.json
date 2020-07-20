@@ -1,10 +1,122 @@
 [
 {
+	"uri": "/40_setup-terraform_cloud/10_hashicorp_terrform_cloud/1_add_workspace_to_terraform_cloud.html",
+	"title": "3.0. Add Workspace",
+	"tags": [],
+	"description": "",
+	"content": " Connect Gitlab as VCS source Switch tabs to Terraform Cloud (https://app.terraform.io/)\nStep 1: On Terraform Cloud, Begin Adding a New VCS Provider\nIf you don\u0026rsquo;t already have an your organization, add organization (you can use your fistname and laster inital for example Jane Doe -\u0026gt; janed )\n Open Terraform Cloud in your browser and navigate to the Settings \u0026gt; VCS Providers page for your organization. Click the \u0026ldquo;Add VCS Provider\u0026rdquo; button.\nLeave the below show page open in a browser tab. In the next step you will copy values from this page, and in later steps you will continue configuring Terraform Cloud.\n Locate the \u0026ldquo;Redirect URI\u0026rdquo; and copy it to your clipboard; you\u0026rsquo;ll paste it in the next step.\n In Step 1 the Name field enter Gitlab.com  Switch to the Gitlab Tab To get the Values for Step 2 and 3\n Navigate to: Profiles \u0026gt; Application https://gitlab.com/profile/applications\n In the Name field enter AWS Dev Ops Workshop\n Paste Redirect URI (Which should be in you clipboard from the previous step)\n Select Confidential\n Click the \u0026ldquo;Save application\u0026rdquo; button, which creates the application and takes you to its page.\n  Expected output:\nLeave this page open in a browser tab. In the next step, you will copy and paste the unique Application ID and Secret.\n Copy the Application ID\nSwitch to the Terraform Tab\n  Paste the Application ID then repeat the previous step and Copy and Pate the Secret ID, as well as an option Name for this VCS connection.\n Click \u0026ldquo;Connect and continue.\u0026rdquo; This takes you to a page on GitLab.com, asking whether you want to authorize the app.\n  Choose the green Authorize button at the bottom of the authorization page.\nNow we will finish the setup by adding the ssh-key we create in the cloud9 enviornment to terraform cloud\nSwitch to the Terraform Tab\n cat /home/ec2-user/.ssh/id_rsa Expected Output: Copy and Paste this key into Private SSH key field Expected Output: From the Workspaces tab select + New Workspace https://app.terraform.io/app/tonynv/workspaces/new\n Select Gitlab.com Select the repo you created in Lab2 Leave the name unchanged (aws-devops-workshop) and choose Create workspace  Wait on this screen till you see Configuration uploaded successfully before proceeding to the next lab\n "
+},
+{
+	"uri": "/10_getting_started/1_aws_event_engine.html",
+	"title": "AWS Event Engine",
+	"tags": [],
+	"description": "",
+	"content": " Logging into AWS Event Engine To complete this workshop, you are provided with an AWS account via the AWS Event Engine service. A 12-digit hash will be provided to you by event staff - this is your unique access code. eg:\ne8476543c00e  Go to https://dashboard.eventengine.run to log into AWS Event Engine.   Enter your unique 12-digit hash code and choose Accept Terms \u0026amp; Login.   Choose AWS Console, then Open AWS Console.  This account will expire at the end of the workshop and the all the resources created will be automatically deprovisioned. You will not be able to access this account after today.\nRegion selection Use a single region for the duration of this workshop. This workshop supports the following regions:\n us-west-2 (US West - Oregon)  Please select US West - Oregon in the top right corner.\n"
+},
+{
 	"uri": "/",
 	"title": "AWS Modernization Workshop with Gitlab, Hashicorp, &amp; Gremlin",
 	"tags": [],
 	"description": "",
-	"content": " AWS Modernization Workshop with Gitlab, Hashicorp, \u0026amp; Gremlin Welcome In this workshop you will learn why DevOps is a pattern for modernization and how to use patterns to release features and functionality at a faster pace.\nLearning Objectives  Deploy Cloud9 as an IDE for completing workshop exercises. How DevOps patterns help to release features and functionality faster. Best practices for implementing 2 pizza team pipelines.  The examples and sample code provided in this workshop are intended to be consumed as instructional content. These will help you understand how various AWS services can be architected to build a solution while demonstrating best practices along the way. These examples are not intended for use in production environments.  "
+	"content": " AWS Modernization Workshop with Gitlab, Hashicorp, \u0026amp; Gremlin Welcome In this workshop you will learn why DevOps is a pattern for modernization and how to use patterns to release features and functionality at a faster pace.\nLearning Objectives  Deploy Cloud9 as an IDE for completing workshop exercises. How DevOps patterns help to release features and functionality faster.  The examples and sample code provided in this workshop are intended to be consumed as instructional content. These will help you understand how various AWS services can be architected to build a solution while demonstrating best practices along the way. These examples are not intended for use in production environments.  "
+},
+{
+	"uri": "/20_create_accounts/1_launch_aws_cloud9_ide.html",
+	"title": "Cloud9",
+	"tags": [],
+	"description": "",
+	"content": " Starting AWS Cloud9 IDE AWS Cloud9 is a cloud-based integrated development environment (IDE) that lets you write, run, and debug your code with just a browser. It includes a code editor, debugger, and terminal. Cloud9 comes pre-packaged with essential tools for popular programming languages and the AWS Command Line Interface (CLI) pre-installed so you don’t need to install files or configure your laptop for this workshop.\nCloud9 works best with Chrome or Firefox, not Safari. It cannot be used from a tablet.\nFor this workshop we will be using us-east-2 (All links in the lab instructions will be pointed to this region)\n✅ Step-by-step Instructions\n From the AWS Management Console, Select Services \u0026gt; Cloud9 under Developer Tools Click here for deeplink to c9   Select Create Environment.\n Enter aws-devops-partner-workshop into Name and optionally provide a Description.\n   Select Next step.\n In Environment settings:\n Set the Instance type to t2.micro (1 GiB RAM + 1 vCPU).\n Leave all other defaults unchanged.\n   Select Next step.\n Review the environment settings and select Create environment. It will take a couple of minutes for your Cloud9 environment to be provisioned and prepared.\n  Setting up Cloud9 IDE  Once ready, your IDE will open to a welcome screen. Below that, you should see a terminal prompt. Close the Welcome tab and drag up the terminal window to give yourself more space to work in.  \u0026ldquo;Add the Required IAM Role\u0026rdquo;\nWe will need to attach a Role to Cloud9 so we can have access to A\n Switch to the AWS Console (You can open the console from the \u0026ldquo;Team Dashboard\u0026rdquo;) Under Services, select EC2 Click Running Instances Select the instance named \u0026ldquo;aws-cloud9-\u0026hellip;\u0026rdquo; by clicking the check box to the left of the name On Actions pull down, select Instance Settings -\u0026gt; Attach/Replace IAM Role In the IAM role pull down, select TeamRoleInstanceProfile To the right, click Apply  Update IAM settings for your Workspace  Return to your workspace and click the gear icon (in top right corner), or click to open a new tab and choose \u0026ldquo;Open Preferences\u0026rdquo; Select AWS SETTINGS Turn off AWS managed temporary credentials Close the Preferences tab   To ensure temporary credentials aren\u0026rsquo;t already in place we will also remove any existing credentials file:\nrm -vf ${HOME}/.aws/credentialsecho \u0026#34;export AWS_REGION=us-east-1\u0026#34; | tee -a ~/.bash_profile aws configure set default.region ${AWS_REGION} aws configure get default.region Validate the IAM role Use the GetCallerIdentity CLI command to validate that the Cloud9 IDE is using the correct IAM role.\nJust run this to try it out yourself.\naws sts get-caller-identity Here is a script that will validate you have the right role.\naws sts get-caller-identity --query Arn | grep TeamRole -q \u0026\u0026 echo \"IAM role valid\" || echo \"IAM role NOT valid\" If the IAM role is not valid, DO NOT PROCEED. Go back and confirm the steps on this page.\n "
+},
+{
+	"uri": "/30_setup-gitlab/10_gitlab/1_create_ssh_key.html",
+	"title": "Create an SSH Key via Cloud9 ",
+	"tags": [],
+	"description": "",
+	"content": " Create an SSH Key From terminal:\nssh-keygen Expected output: Upload your ssh key to Gitlab\ncat /home/ec2-user/.ssh/id_rsa.pub Expected output: Copy your key to the clipboard\n"
+},
+{
+	"uri": "/40_setup-terraform_cloud/10_hashicorp_terrform_cloud/2_setup_terraform_varibles.html",
+	"title": "3.1. Setup Terraform Varibles",
+	"tags": [],
+	"description": "",
+	"content": " Switch to Cloud9 tab\n https://console.aws.amazon.com/ec2/v2/home?region=us-east-2#Instances:search=aws-cloud9\nAdd AWS Varibles Proceed on the Terraform Cloud tab\n Click Configure variables\nIn the Environment Variables we will add three variables\nAWS_ACCESS_KEY_ID\nAWS_SECRET_ACCESS_KEY\nAWS_DEFAULT_REGION set to us-east-1\n"
+},
+{
+	"uri": "/10_getting_started/2_aws_workshop_account.html",
+	"title": "AWS Workshop Account",
+	"tags": [],
+	"description": "",
+	"content": " Your account must have the ability to create new IAM roles and scope other IAM permissions.\n Create an account  If you don\u0026rsquo;t already have an AWS account with Administrator access: create one now\n Once you have an AWS account, ensure you are following the remaining workshop steps as an IAM user with administrator access to the AWS account: Create a new IAM user to use for the workshop\n Enter the user details:  Attach the AdministratorAccess IAM Policy:  Click to create the new user:  Take note of the login URL and save:   "
+},
+{
+	"uri": "/20_create_accounts/2_create_gitlab_account.html",
+	"title": "Gitlab",
+	"tags": [],
+	"description": "",
+	"content": " Login to Gitlab If you do not already have a Gitlab account Register here\nIf you are a exsiting user Login in here\n"
+},
+{
+	"uri": "/30_setup-gitlab/10_gitlab/2_upload_key_to_gitlab.html",
+	"title": "Upload key to Gitlab",
+	"tags": [],
+	"description": "",
+	"content": "Navigate to the profile section of gitlab https://gitlab.com/profile/keys\n Paste the key into the textbox provided Title the key cloud9-ide-key Choose Add Key Navigate back to your project in Gitlab -\u0026gt; https://gitlab.com/your-username/aws-devops-workshop  NOTE: Be sure to replace your-name with your gitlab username\nTIP: Do these step from cloud9 (Switch tabs to your cloud9 terminal)\n"
+},
+{
+	"uri": "/30_setup-gitlab/10_gitlab/3_create_gitlab_repo.html",
+	"title": "Create Gitlab Repo",
+	"tags": [],
+	"description": "",
+	"content": " Create Gitlab Repo Create a new project at https://gitlab.com/projects/new\n Set the Project name to aws-devops-workshop Choose Create Project  Configure Git form your Cloud9 Git global setup git config --global user.name \"Your Name\" git config --global user.email \"email@domain.com\" Clone your repository git clone git@gitlab.com:/aws-devops-workshop.git cd aws-devops-workshop echo \"My AWS DevOps Workshop Repo\"  README.md git add README.md git commit -m \"add README\" git push -u origin master "
+},
+{
+	"uri": "/30_setup-gitlab/10_gitlab/4_create_gitlab_ci.html",
+	"title": "Enable Gitlab CI",
+	"tags": [],
+	"description": "",
+	"content": " Create Gitlab CI Configuration From terminal:\nGet the CI config file via wget\nwget https://gitlab.com/gitlab-com/alliances/aws/sandbox-projects/global-devops-workshop/-/raw/workshop/lab_assets/gitlab/gitlab-ci.yml -O .gitlab-ci.yml Add to git and push to repository\ngit add .gitlab-ci.yml git commit -a -m'Enable Gitlab CI' git push  "
+},
+{
+	"uri": "/20_create_accounts/3_create_hashicop_terraform_account.html",
+	"title": "Terraform",
+	"tags": [],
+	"description": "",
+	"content": " Login to Terraform cloud If you do not already have a Terraform Cloud account Register here\nIf you are a exsiting user Login in here\nCreate organization name it aws-devops-workshop. If you plan on using this org long term you can use your fistname and last inital for example: (JaneDoe janed)\n"
+},
+{
+	"uri": "/20_create_accounts/4_create_gremlin_account.html",
+	"title": "Gremlin",
+	"tags": [],
+	"description": "",
+	"content": " Login to Gremlin If you do not already have a Gremlin account Register here\nIf you are a exsiting user Login in here\n"
+},
+{
+	"uri": "/10_getting_started.html",
+	"title": "Getting Started",
+	"tags": [],
+	"description": "",
+	"content": " Getting Started Click here if you are at an AWS event where the Event Engine is being used\n k here if you are running this individually in your own AWS Account you will be responsible for the cost of this lab\n "
+},
+{
+	"uri": "/20_create_accounts.html",
+	"title": "Lab1. Create Accounts",
+	"tags": [],
+	"description": "",
+	"content": " Creating Account and Environment  Cloud9   Gitlab   Terraform   Gremlin   "
+},
+{
+	"uri": "/30_setup-gitlab.html",
+	"title": "Lab2. Setup Gitlab",
+	"tags": [],
+	"description": "",
+	"content": " GitLab  Create SSH Keys Upload SSH Keys to Gitlab Create Gitlab Repo in Cloud Clone Repo in Cloud9 Configure Gitlab CI to validate terraform file on push  "
+},
+{
+	"uri": "/40_setup-terraform_cloud.html",
+	"title": "Lab3. Setup Terraform Cloud",
+	"tags": [],
+	"description": "",
+	"content": " Terraform  Configure Gitlab as Terraform Source Control Configure Terraform for Remote Backend and Auto Apply  "
 },
 {
 	"uri": "/categories.html",

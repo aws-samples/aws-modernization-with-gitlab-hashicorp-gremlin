@@ -8,7 +8,7 @@ weight: 1
 
 ### Welcome
 
-In this workshop you will learn why DevOps is a pattern for modernization and how to use patterns to release features and functionality at a faster pace.
+In this workshop you will learn how to @TODO
 
 ### Learning Objectives
 - Deploy Cloud9 as an IDE for completing workshop exercises.

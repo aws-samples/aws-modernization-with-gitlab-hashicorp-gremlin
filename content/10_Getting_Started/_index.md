@@ -10,5 +10,5 @@ Click [here]({{< ref "1_aws_event_engine.md" >}}) if you are at an AWS event whe
 {{% /notice %}}
 
 {{% notice note %}}
-Click [here]({{< ref "2_aws_account.md" >}}) if you are running this individually in your own AWS Account
+k [here]({{< ref "2_aws_workshop_account.md" >}}) if you are running this individually in your own AWS Account you will be responsible for the cost of this lab
 {{% /notice %}}

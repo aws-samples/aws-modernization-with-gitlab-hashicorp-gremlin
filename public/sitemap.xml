@@ -3,7 +3,71 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/40_setup-terraform_cloud/10_hashicorp_terrform_cloud/1_add_workspace_to_terraform_cloud.html</loc>
+  </url>
+  
+  <url>
+    <loc>/10_getting_started/1_aws_event_engine.html</loc>
+  </url>
+  
+  <url>
     <loc>/</loc>
+  </url>
+  
+  <url>
+    <loc>/20_create_accounts/1_launch_aws_cloud9_ide.html</loc>
+  </url>
+  
+  <url>
+    <loc>/30_setup-gitlab/10_gitlab/1_create_ssh_key.html</loc>
+  </url>
+  
+  <url>
+    <loc>/40_setup-terraform_cloud/10_hashicorp_terrform_cloud/2_setup_terraform_varibles.html</loc>
+  </url>
+  
+  <url>
+    <loc>/10_getting_started/2_aws_workshop_account.html</loc>
+  </url>
+  
+  <url>
+    <loc>/20_create_accounts/2_create_gitlab_account.html</loc>
+  </url>
+  
+  <url>
+    <loc>/30_setup-gitlab/10_gitlab/2_upload_key_to_gitlab.html</loc>
+  </url>
+  
+  <url>
+    <loc>/30_setup-gitlab/10_gitlab/3_create_gitlab_repo.html</loc>
+  </url>
+  
+  <url>
+    <loc>/30_setup-gitlab/10_gitlab/4_create_gitlab_ci.html</loc>
+  </url>
+  
+  <url>
+    <loc>/20_create_accounts/3_create_hashicop_terraform_account.html</loc>
+  </url>
+  
+  <url>
+    <loc>/20_create_accounts/4_create_gremlin_account.html</loc>
+  </url>
+  
+  <url>
+    <loc>/10_getting_started.html</loc>
+  </url>
+  
+  <url>
+    <loc>/20_create_accounts.html</loc>
+  </url>
+  
+  <url>
+    <loc>/30_setup-gitlab.html</loc>
+  </url>
+  
+  <url>
+    <loc>/40_setup-terraform_cloud.html</loc>
   </url>
   
   <url>
