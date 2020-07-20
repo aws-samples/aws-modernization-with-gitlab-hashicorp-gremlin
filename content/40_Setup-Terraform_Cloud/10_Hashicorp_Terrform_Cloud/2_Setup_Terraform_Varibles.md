@@ -20,14 +20,14 @@ Get the workshop user AWS credentials
 ![Step 10](/images/lab3/display_c9_cred.png)
 
 
-{{% notice info %}}
+{{% notice tip %}}
 __Leave this tab open we will load the credentials into terraform cloud9 in the next step__
 {{% /notice %}}
 
 # Add AWS Varibles 
 
 {{% notice info %}}
-__Proceed on the Terraform Cloud tab__
+__Switch to the Terraform Cloud tab__
 {{% /notice %}}
 
 Click __Configure variables__
