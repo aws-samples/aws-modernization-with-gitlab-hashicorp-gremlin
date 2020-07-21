@@ -5,12 +5,11 @@ chapter = false
 weight = 1
 +++
 
-
-{{% notice info %}}
+{{% notice tip %}}
 __Switch to  Cloud9 tab__
 {{% /notice %}}
 
-Create a workshop AWS KeyPair
+#### Create a workshop keypair
 ```
 aws ec2 import-key-pair --key-name "workshop" --public-key-material file://~/.ssh/id_rsa.pub
 ```
