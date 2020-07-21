@@ -17,3 +17,6 @@ TIP: Do these step from cloud9 (Switch tabs to your cloud9 terminal)
 
 ![Step 5](/images/gitlab/gitlab_step5.png)
 
+Expected Output:
+
+![Step 6](/images/lab2/gitlab_key_upload.png)
