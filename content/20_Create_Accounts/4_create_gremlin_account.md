@@ -13,3 +13,7 @@ If you are a exsiting user [Login in here](https://app.gremlin.com/login)
 
 ![Step 1](/images/lab1/gremlin_dashboard.png)
 
+{{% notice tip %}}
+Leave this tab open (Use new tab for next step)
+{{% /notice %}}
+
