@@ -38,6 +38,7 @@ For this workshop we will be using `us-east-2` (All links in the lab instruction
 7. Review the environment settings and select **Create environment**. It will take a couple of minutes for your Cloud9 environment to be provisioned and prepared.
 
 ### Setting up Cloud9 IDE
+![Step 7](/images/getting_started/c9-step7.png)
 
 1. Once ready, your IDE will open to a welcome screen. Below that, you should see a terminal prompt. Close the Welcome tab and drag up the terminal window to give yourself more space to work in. 
 
@@ -94,3 +95,6 @@ Expected Output:
 If credentials do not reflect the __workshop user__, <span style="color: red;">**DO NOT PROCEED**</span>. Go back and confirm the steps on this page.
 {{% /notice %}}
 
+{{% notice tip %}}
+Leave this tab open (Use new tab for next step)
+{{% /notice %}}
