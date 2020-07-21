@@ -71,10 +71,10 @@ __Switch to the Terraform Tab__
 
 Choose the green __Authorize__ button at the bottom of the authorization page.
 
-Now we will finish the setup by adding the ssh-key we create in the cloud9 enviornment to terraform cloud
+#### Adding ssh keypair to VCS provider
 
-{{% notice info %}}
-__Switch to the Terraform Tab__ 
+{{% notice tip %}}
+__Switch to the Cloud9 Tab__ 
 {{% /notice %}}
 
 ```
@@ -90,14 +90,13 @@ Copy and Paste this key into __Private SSH key__ field
 Expected Output:
 ![Step 10](/images/lab3/completed_adding_vcs_provider.png)
 
-From the Workspaces tab select __+ New Workspace__  https://app.terraform.io/app/tonynv/workspaces/new
+#### Setup VCS integration from Gitlab
 
-1. Select Gitlab.com
-2. Select the repo you created in Lab2 
-3. Leave the name unchanged (aws-devops-workshop) and choose __Create workspace__
+From the Workspaces tab select __+ New Workspace__ https://app.terraform.io/app/tonynv/workspaces/new
 
-![Step 11](/images/lab3/select_gitlab_repo.png)
-![Step 11](/images/lab3/select_create_workspace.png)
+![Step 11](/images/lab3/browse_gitlab_repos.png)
+![Step 12](/images/lab3/select_gitlab_repo.png)
+![Step 13](/images/lab3/select_create_workspace.png)
 
 
 {{% notice info %}}
