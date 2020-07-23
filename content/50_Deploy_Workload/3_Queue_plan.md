@@ -66,3 +66,14 @@ __Web_Server_HTTP_Address = http://X.X.X.X:8080__
 
 __Web_Server_Public_IP = X.X.X.X__
 
+
+Open a new tab to load go the __Vault_Server_HTTP_Address__
+![Step 7](/images/lab4/vault_ui.png)
+
+Open another tab to the __petclinic app__
+![Step 8](/images/lab4/petclinic_app.png)
+
+Click on __Veterinarians__
+![Step 9](/images/lab4/petclinic_vets.png)
+
+
