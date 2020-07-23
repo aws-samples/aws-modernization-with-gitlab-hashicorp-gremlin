@@ -3,7 +3,7 @@ title = "Create an SSH Key via Cloud9 "
 chapter = false
 weight = 1
 +++
-{{% notice info %}}                                                                                                                          
+{{% notice tip %}}                                                                                                                          
 Switch to Cloud9 tab
 {{% /notice %}}
 

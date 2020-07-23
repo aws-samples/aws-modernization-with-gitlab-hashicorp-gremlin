@@ -13,7 +13,12 @@ Create a new project at [https://gitlab.com/projects/new](https://gitlab.com/pro
 1. Set the __Project name__ to `aws-devops-workshop`
 2. Choose __Create Project__
 
-#### Configure Git form your Cloud9
+{{% notice tip %}}                                                                                                                          
+Switch to Cloud9 tab
+{{% /notice %}}
+
+
+#### Configure Git form your Cloud9 ide
 
 ![Step 2](/images/gitlab/gitlab_step2.png)
 
@@ -25,8 +30,17 @@ git config --global user.email "email@domain.com"
 
 #### Clone your repository
 
+{{% notice tip %}}                                                                                                                          
+Make sure to replace the **your-user-name**  with your Gitlab username
+{{% /notice %}}
+
 ```
 git clone git@gitlab.com:your-user-name/aws-devops-workshop.git
+
+```
+
+Change dir into you git repository
+```
 cd aws-devops-workshop
 echo "My AWS DevOps Workshop Repo" > README.md
 git add README.md
