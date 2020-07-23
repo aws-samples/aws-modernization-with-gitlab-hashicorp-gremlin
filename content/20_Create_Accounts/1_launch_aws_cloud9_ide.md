@@ -99,5 +99,5 @@ If credentials do not reflect the __workshop user__, <span style="color: red;">*
 {{% /notice %}}
 
 {{% notice tip %}}
-Leave this tab open (Use new tab for next step)
+Leave cloud9 open we will be using cloud9 through out this workshop
 {{% /notice %}}
