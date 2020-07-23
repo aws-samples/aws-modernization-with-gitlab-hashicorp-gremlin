@@ -92,7 +92,7 @@ Expected Output:
 
 #### Setup VCS integration from Gitlab
 
-From the Workspaces tab select __+ New Workspace__ https://app.terraform.io/app/tonynv/workspaces/new
+From the Workspaces tab select __+ New Workspace__ 
 
 ![Step 11](/images/lab3/browse_gitlab_repos.png)
 ![Step 12](/images/lab3/select_gitlab_repo.png)
