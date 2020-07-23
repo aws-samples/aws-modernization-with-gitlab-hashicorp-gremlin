@@ -33,11 +33,11 @@ as an **IAM user** with administrator access to the AWS account
 
 6. Take note of the login URL and save:
 
-{{% notice note %}}
+  - Click Show access key 
+
+{{% notice tip %}}
 Leave this tab open we will need these creds in the next lab
 {{% /notice %}}
-
-  - Click Show access key 
 
 ![Login URL](/images/getting_started/iam-4-save-url.png)
 
