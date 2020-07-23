@@ -45,11 +45,14 @@ For this workshop we will be using `us-east-2` (All links in the lab instruction
 
 #### Configure AWS credentials for your Cloud9 Workspace
 
-- Return to your workspace and click the gear icon (in top right corner), or click to open a new tab and choose "Open Preferences"
-- Select **AWS SETTINGS**
-- Turn off **AWS managed temporary credentials**
-- Close the Preferences tab
-![Step 8](/images/getting_started/c9disableiam.png)
+1. Click on the Cloud9 logo in the top left corner 
+2. Choose Preferences
+3. In the Preferences tab got to  **AWS Settings**
+4. Turn off **AWS managed temporary credentials**
+
+Close the Preferences tab
+
+![Step 8](/images/getting_started/c9disable_tempcreds.png)
 
 To ensure temporary credentials aren't already in place we will also remove
 any existing credentials file:
