@@ -7,7 +7,7 @@ weight = 2
 
 
 {{% notice tip %}}
-witch to Cloud9 tab
+Switch to Cloud9 tab
 {{% /notice %}}
 
 Change working directory to our workshop on Gitlab 

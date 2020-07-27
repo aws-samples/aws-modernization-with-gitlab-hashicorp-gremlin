@@ -2,11 +2,11 @@
 
 title = "6.2 Auto Apply plan in TFC"
 chapter = false
-weight = 3
+weight = 2
 +++
 
 {{% notice tip %}}
-witch to terraform tab
+Switch to terraform tab
 {{% /notice %}}
 
 
