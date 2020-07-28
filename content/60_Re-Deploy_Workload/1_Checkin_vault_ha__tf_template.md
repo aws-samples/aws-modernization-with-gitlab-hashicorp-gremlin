@@ -32,7 +32,7 @@ git clone https://github.com/aws-quickstart/workshop-hashicorp-vault.git /tmp/la
 Copy the terraform files for the HA deployment to the root of our workshop repo
 
 ```
-cp -rf /tmp/lab4/workshop_content/ha-vault/* .
+cp -rf /tmp/lab6/workshop_content/ha-vault/* .
 ```
 
 Add file to git and commit to Gitlab
