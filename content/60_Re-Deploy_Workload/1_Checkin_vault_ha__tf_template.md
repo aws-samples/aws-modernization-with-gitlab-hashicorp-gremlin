@@ -40,6 +40,7 @@ Add file to git and commit to Gitlab
 ```
 git add --all .
 git commit -a -m'Re-Deplpy Vault HA deployment'
+git push 
 ```
 
 
