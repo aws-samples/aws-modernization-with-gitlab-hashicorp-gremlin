@@ -27,3 +27,9 @@ From the Gremlin Dashboard Click Attack
 
 ![Step 1](/images/lab5/unleash_gremlin.png)
 ![Step 2](/images/lab5/attack_complete.png)
+
+6. Measuring Results
+
+To see the true results of this experiment, try going back to the AWS Console and see the target and its current state. More importantly check on the user experience of the Pet Clinic App.
+
+Was this expected? Record your findings in Gremlin.
