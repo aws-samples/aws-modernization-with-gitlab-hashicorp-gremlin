@@ -10,7 +10,9 @@ If you are a exsiting user [Login in here](https://gitlab.com/users/sign_in)
 
 If you do not already have a Gitlab account, you can [register for a free 30 day trial](https://about.gitlab.com/free-trial/). 
 
-Note: You can register for an account only if desired; the trial is for full GitLab features for 30 day. After 30 days, a trial will automatically transition to user account so there is no harm in trying out GitLab for free! The instructions below are for trial signup/
+{{% notice tip %}}
+You can register for an account only if desired; the trial is for full GitLab features for 30 day. After 30 days, a trial will automatically transition to user account so there is no harm in trying out GitLab for free! The instructions below are for trial signup
+{{% /notice %}}
 
 ![Step 1](/images/getting_started/gitlab-homepage.png)
 
@@ -29,8 +31,6 @@ The last step is important if you would like to share this trial with other coll
 ![Step 4](/images/getting_started/gitlab-trial-screen-3.png)
 
 You will be sent an email to the email address specified in the "Step 2" from the instructions above. Please check your email and click on the "Confirm your account" 
-
-As noted above, trial accounts convert to free accounts so there is no harm in taking out a trial if you do not already have an account.
 
 {{% notice tip %}}
 Leave this tab open (Use new tab for next step)
