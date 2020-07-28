@@ -1,7 +1,7 @@
 ---
 title: "Lab6. Re-Deploy Vault (HA)"
 chapter: true
-weight: 70
+weight: 60
 ---
 
 # Deploy Vault in  HA mode

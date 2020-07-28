@@ -1,7 +1,7 @@
 ---
 title: "Lab7. Re-Deploy Gremlin Attack"
 chapter: true
-weight: 50
+weight: 70
 ---
 
 # Gremlin Chaos Engineering tests
