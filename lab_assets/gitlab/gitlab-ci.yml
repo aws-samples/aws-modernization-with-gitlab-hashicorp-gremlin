@@ -9,6 +9,8 @@ before_script:
   - wget -q https://github.com/terraform-linters/tflint/releases/download/v0.16.2/tflint_linux_amd64.zip -O tflint.zip && unzip tflint.zip && mv tflint /bin
 
 tf_format:
+   only:
+    - develop
   stage: format-tf
   script: |
     #!/bin/sh
@@ -22,6 +24,8 @@ tf_format:
     fi
 
 tf_validate:
+   only:
+    - develop
   stage: validate-tf
   script: |
     #!/bin/sh
