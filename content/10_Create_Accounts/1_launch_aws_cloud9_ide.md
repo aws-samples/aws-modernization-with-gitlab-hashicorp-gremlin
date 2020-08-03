@@ -11,11 +11,11 @@ AWS Cloud9 is a cloud-based integrated development environment (IDE) that lets y
 
 **Cloud9 works best with Chrome or Firefox, not Safari. It cannot be used from a tablet.**
 
-For this workshop we will be using `us-east-2` (All links in the lab instructions will be pointed to this region)
+For this workshop we will be using `us-east-1` (All links in the lab instructions will be pointed to this region)
 
 **:white_check_mark: Step-by-step Instructions**
 
-1. From the AWS Management Console, Select **Services > Cloud9** under Developer Tools [Click here for deeplink to c9](https://us-west-2.console.aws.amazon.com/cloud9/home/product)
+1. From the AWS Management Console, Select **Services > Cloud9** under Developer Tools [Click here for deeplink to c9](https://us-east-1.console.aws.amazon.com/cloud9/home/product)
 
 ![Step 4](/images/getting_started/c9-step4.png)
 
