@@ -11,7 +11,7 @@ Create a new project at [https://gitlab.com/projects/new](https://gitlab.com/pro
 ![Step 1](/images/gitlab/gitlab_step1.png)
 
 1. Click on the __Import__ tab
-2. Choose __Repo by URL__ button
+2. Select the __Repo by URL__ button
 3. In the __Git Repository URL__ copy and paste the following URL:
   ```
   https://gitlab.com/gitlab-com/alliances/aws/sandbox-projects/global-devops-workshop.git
