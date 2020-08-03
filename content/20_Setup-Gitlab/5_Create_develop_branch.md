@@ -8,6 +8,18 @@ weight = 4
 
 **From terminal:**
 
+Change dir into you git repository
+```
+cd aws-devops-workshop
+echo "My AWS DevOps Workshop Repo" > README.md
+git add README.md
+git commit -m "add README"
+git push -u origin master
+```
+
+![Step 6](/images/gitlab/gitlab_step6.png)
+
+
 
 ```
 git checkout -b develop

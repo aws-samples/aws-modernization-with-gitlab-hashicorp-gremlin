@@ -40,18 +40,7 @@ Make sure to replace the **your-group-name and your-user-name**  with your Gitla
 {{% /notice %}}
 
 ```
-git clone git@gitlab.com:your-group-name/your-user-name/aws-devops-workshop.git
+git clone git@gitlab.com:your-group-name/your-user-name/aws-devops-workshop.git -b
 
 ```
-
-Change dir into you git repository
-```
-cd aws-devops-workshop
-echo "My AWS DevOps Workshop Repo" > README.md
-git add README.md
-git commit -m "add README"
-git push -u origin master
-```
-
-![Step 6](/images/gitlab/gitlab_step6.png)
 
