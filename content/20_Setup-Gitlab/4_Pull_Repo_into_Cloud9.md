@@ -1,4 +1,4 @@
-+++
+<!-- +++
 title = "Enable Gitlab CI"
 chapter = false
 weight = 3
@@ -22,4 +22,4 @@ git push
 ```
 
 ![Step 1](/images/gitlab/gitlab_step6.png)
-
+ -->
