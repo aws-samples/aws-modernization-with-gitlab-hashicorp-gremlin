@@ -23,12 +23,11 @@ Create a new project at [https://gitlab.com/projects/new](https://gitlab.com/pro
 Switch to Cloud9 tab
 {{% /notice %}}
 
+<!-- #### Configure Git form your Cloud9 ide
 
-#### Configure Git form your Cloud9 ide
+![Step 2](/images/gitlab/gitlab_step2.png) -->
 
-![Step 2](/images/gitlab/gitlab_step2.png)
-
-#### Git global setup
+#### Git global setup on Cloud9 IDE
 ```
 git config --global user.name "Your Name"
 git config --global user.email "email@domain.com"
