@@ -16,7 +16,7 @@ cd ~/environment/aws-devops-workshop
 ```
 
 
-Now we will add our terraform code to the terraform cloud workspace via Gitlab
+Now we will add our Terraform code to the Terraform Cloud workspace via Gitlab
 
 
 {{% notice info %}}
