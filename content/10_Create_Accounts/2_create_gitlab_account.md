@@ -32,6 +32,8 @@ The last step is important if you would like to share this trial with other coll
 
 You will be sent an email to the email address specified in the "Step 2" from the instructions above. Please check your email and click on the "Confirm your account" 
 
+![Step 5](/images/getting_started//gitlab-trial-screen-4.png)
+
 {{% notice tip %}}
 Leave this tab open (Use new tab for next step)
 {{% /notice %}}
