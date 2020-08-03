@@ -8,6 +8,4 @@ weight: 30
 
 1. Create SSH Keys
 2. Upload SSH Keys to Gitlab
-3. Create Gitlab Repo in Cloud
-4. Clone Repo in Cloud9
-5. Configure Gitlab CI to validate terraform file on push
+3. Create & Clone Gitlab Repo

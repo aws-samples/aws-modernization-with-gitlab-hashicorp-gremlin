@@ -4,25 +4,30 @@ chapter = false
 weight = 3
 +++
 
-#### Create Gitlab Repo
+#### Create & Clone Gitlab Repo
 
 Create a new project at [https://gitlab.com/projects/new](https://gitlab.com/projects/new)
 
 ![Step 1](/images/gitlab/gitlab_step1.png)
 
-1. Set the __Project name__ to `aws-devops-workshop`
-2. Choose __Create Project__
+1. Click on the __Import__ tab
+2. Select the __Repo by URL__ button
+3. In the __Git Repository URL__ copy and paste the following URL:
+  ```
+  https://gitlab.com/gitlab-com/alliances/aws/sandbox-projects/global-devops-workshop.git
+  ```
+4. Click on the __Create Project__ button. 
+5. Once the project imports, you will be redirected automatically to the new repo. 
 
 {{% notice tip %}}                                                                                                                          
 Switch to Cloud9 tab
 {{% /notice %}}
 
+<!-- #### Configure Git form your Cloud9 ide
 
-#### Configure Git form your Cloud9 ide
+![Step 2](/images/gitlab/gitlab_step2.png) -->
 
-![Step 2](/images/gitlab/gitlab_step2.png)
-
-#### Git global setup
+#### Git global setup on Cloud9 IDE
 ```
 git config --global user.name "Your Name"
 git config --global user.email "email@domain.com"
@@ -31,11 +36,11 @@ git config --global user.email "email@domain.com"
 #### Clone your repository
 
 {{% notice tip %}}                                                                                                                          
-Make sure to replace the **your-user-name**  with your Gitlab username
+Make sure to replace the **your-group-name and your-user-name**  with your Gitlab group and username
 {{% /notice %}}
 
 ```
-git clone git@gitlab.com:your-user-name/aws-devops-workshop.git
+git clone git@gitlab.com:your-group-name/your-user-name/aws-devops-workshop.git
 
 ```
 
