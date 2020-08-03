@@ -7,9 +7,12 @@ weight = 2
 Your account must have the ability to create new IAM roles and scope other IAM permissions.
 {{% /notice %}}
 
-## Create an account 
+{{% notice note %}}
+__MAKE SURE ARE WORKING IN THE  us-east-1 REGION__ 
+https://console.aws.amazon.com/console/home?region=us-east-1
+{{% /notice %}}
 
-1. For this account we will need a AWS account with Administrator access: [create one now](http://docs.aws.amazon.com/connect/latest/adminguide/gettingstarted.html#sign-up-for-aws)
+## Create an account 
 
 {{% notice info %}}
 Once you have an AWS account, ensure you are following the remaining workshop steps
