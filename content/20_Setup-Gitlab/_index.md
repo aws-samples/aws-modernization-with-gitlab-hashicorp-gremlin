@@ -9,4 +9,3 @@ weight: 30
 1. Create SSH Keys
 2. Upload SSH Keys to Gitlab
 3. Create & Clone Gitlab Repo
-<!-- 4. Pull New Repo into Cloud9 -->
