@@ -13,14 +13,14 @@ Switch to Terraform Cloud tab
 Lets start by cleaning up our existing Non-HA Vault install
 
 From you workspace choose __Settings__ then __Destruction and Deletion__
-![Step 1](/images/lab7/cleanup1.png)
+![Step 1](/images/lab6/cleanup1.png)
 
 Confim and Apply
-![Step 2](/images/lab7/cleanup2.png)
+![Step 2](/images/lab6/cleanup2.png)
 
 Expected Results:
 
-![Step 3](/images/lab7/cleanup3.png)
+![Step 3](/images/lab6/cleanup3.png)
 
 
 {{% notice warning %}}

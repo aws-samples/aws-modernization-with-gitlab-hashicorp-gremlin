@@ -12,7 +12,7 @@ Switch to terraform tab
 Queue and Apply the new commit in terraform 
 
 Expected Output:
-![Step 1](/images/lab7/confirm_deployment.png)
+![Step 1](/images/lab6/confirm_deployment.png)
 
 Note the outputs of you terraform run 
 
