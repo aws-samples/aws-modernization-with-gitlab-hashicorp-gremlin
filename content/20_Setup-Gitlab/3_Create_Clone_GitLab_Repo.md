@@ -3,11 +3,11 @@ title = "Create Gitlab Repo"
 chapter = false
 weight = 3
 +++
-{{% notice tip %}}                                                                                                                          
+{{% notice tip %}}                                                                                  
 Switch to Gitlab tab
 {{% /notice %}}
 
-#### Create & Clone Gitlab Repo
+#### Create Repo via Import
 
 Create a new project at [https://gitlab.com/projects/new](https://gitlab.com/projects/new)
 
@@ -16,7 +16,7 @@ Create a new project at [https://gitlab.com/projects/new](https://gitlab.com/pro
 2. Select the __Repo by URL__ button
 3. In the __Git Repository URL__ copy and paste the following URL:
   ```
-  https://gitlab.com/gitlab-com/alliances/aws/sandbox-projects/global-devops-workshop.git
+  https://gitlab.com/gitlab-com/alliances/aws/sandbox-projects/aws-devops-workshop.git
   ```
 4. Click on the __Create Project__ button. 
 
@@ -25,5 +25,4 @@ Once the project imports, you will be redirected automatically to the new repo.
 {{% /notice %}}
 
 ![Step 1](/images/gitlab/gitlab_step1.png)
-
 
