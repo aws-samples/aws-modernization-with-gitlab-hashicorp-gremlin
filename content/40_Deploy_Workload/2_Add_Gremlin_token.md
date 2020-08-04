@@ -1,6 +1,6 @@
 +++
 
-title = "4.2 Check in Vault template "
+title = "4.2 Add Gremlin token"
 chapter = false
 weight = 2
 +++
@@ -16,32 +16,12 @@ cd ~/environment/aws-devops-workshop
 ```
 
 
-Now we will add our Terraform code to the Terraform Cloud workspace via Gitlab
-
+We will create_tfvars and store the Gremlin __gremlin_team_id__ and __gremlin_secret_key__ as terraform vars. We will use these as part of the next step to automate the gremlin agent setup
 
 {{% notice info %}}
 Which in the git repo you cloud9 prompt will show your git branch in brackets 
-example:*aws-devops-workshop __(master)__ $*
+example:*aws-devops-workshop __(develop)__ $*
 {{% /notice %}}
-
-Clone the following repo into the /tmp dir on cloud9
-
-```
-git clone https://github.com/aws-quickstart/workshop-hashicorp-vault.git /tmp/lab4
-```
-
-Copy the terraform files for the single node deployment to to root of our workshop repo
-
-```
-cp -rf /tmp/lab4/workshop_content/single-vault/* .
-```
-
-Add file to git and commit to Gitlab
-
-```
-git add --all .
-git commit -a -m'Add Vault Non-HA deployment'
-```
 
 1. Create a terraform vars file
 ```
@@ -63,10 +43,9 @@ gremlin_secret_key = "replace_with_team_secret"
 Leave this tab open and switch to the Gremlin tab
 {{% /notice %}}
 
-
 #### Get Gremlin token 
 
-From the Gremlin Dashboard click on the third icon and go to __Team Settings__
+From the Gremlin Dashboard click on the third icon and go to __Team Settings__ > __Configuration__
 
 ![Step 2](/images/lab4/gremlin_team_settings.png)
 
@@ -89,7 +68,7 @@ Click the __x__ on the terraform_auto.tfvars tab to clone (Click Save whem promp
 Commit you terraform Vars
 ```
 git add terraform.auto.tfvars
-git commit -a -m'Add terraform vars'
+git commit -a -m' Add Gremin token as terraform vars'
 git push
 ```
 
