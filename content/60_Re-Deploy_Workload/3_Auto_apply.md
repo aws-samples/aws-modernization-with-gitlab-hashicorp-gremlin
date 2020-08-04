@@ -1,8 +1,8 @@
 +++
 
-title = "6.2 Auto Apply plan in TFC"
+title = "6.3 Auto Apply plan in TFC"
 chapter = false
-weight = 2
+weight = 3
 +++
 
 {{% notice tip %}}
