@@ -30,6 +30,10 @@ From the Gremlin Dashboard Click Attack
 
 6. Measuring Results
 
-To see the true results of this experiment, try going back to the AWS Console and see the target and its current state. More importantly check on the user experience of the Pet Clinic App.
+To see the true results of this experiment, try going back to the AWS Console and see the target and its current state.  Click here to see the State on the deployed infrastructure 
+
+[Deep link to EC2 Console](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#Instances:tag:Name=aws*;sort=instanceState)
 
 Was this expected? Record your findings in Gremlin.
+
+
