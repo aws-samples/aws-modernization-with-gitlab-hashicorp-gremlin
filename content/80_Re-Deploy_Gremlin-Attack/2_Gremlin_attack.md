@@ -1,6 +1,6 @@
 +++
 
-title = "5.1 Gremlin Attack"
+title = "8.2 Gremlin Attack"
 chapter = false
 weight = 2
 +++
@@ -25,5 +25,5 @@ From the Gremlin Dashboard Click Attack
 
 5. Unleash Gremlin
 
-![Step 1](/images/lab5/unleash_gremlin.png)
-![Step 2](/images/lab5/attack_complete.png)
+![Step 1](/images/lab8/unleash_gremlin-ha.png)
+![Step 2](/images/lab8/attack_complete-ha.png)
