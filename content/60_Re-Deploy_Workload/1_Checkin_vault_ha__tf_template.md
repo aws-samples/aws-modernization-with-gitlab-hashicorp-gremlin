@@ -20,7 +20,7 @@ Now we will add our HA terraform code to the terraform cloud workspace via Gitla
 
 {{% notice info %}}
 The git repo you cloud9 prompt will show your git branch in brackets 
-example:*aws-devops-workshop __(master)__ $*
+example:*aws-devops-workshop __(develop)__ $*
 {{% /notice %}}
 
 Clone the following repo into the /tmp dir on cloud9
