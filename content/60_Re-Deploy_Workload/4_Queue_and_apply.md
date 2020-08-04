@@ -1,6 +1,6 @@
 +++
 
-title = "6.3 Auto Apply plan in TFC"
+title = "6.3 Queue and Apply plan in TFC"
 chapter = false
 weight = 3
 +++
@@ -9,8 +9,7 @@ weight = 3
 Switch to terraform tab
 {{% /notice %}}
 
-
-Because we have __auto apply__ enabled Terraform Cloud should pick up our new changes and apply them automatically
+Queue and Apply the new commit in terraform 
 
 Expected Output:
 ![Step 6](/images/lab4/tf_apply_complete.png)

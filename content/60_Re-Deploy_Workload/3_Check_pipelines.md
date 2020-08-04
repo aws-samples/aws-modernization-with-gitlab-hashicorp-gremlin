@@ -1,6 +1,6 @@
 +++
 
-title = "6.2 Inspect Pipelines"
+title = "6.3 Inspect Pipelines"
 chapter = false
 weight = 2
 +++

@@ -1,13 +1,13 @@
 +++
 
-title = "6.1 Check in Vault HA template "
+title = "6.2 Check in Vault HA template "
 chapter = false
-weight = 1
+weight = 2
 +++
 
 
 {{% notice tip %}}
-witch to Cloud9 tab
+Switch to Cloud9 tab
 {{% /notice %}}
 
 Change working directory to our workshop on Gitlab 
