@@ -27,7 +27,7 @@ Choose __Compare branches and continue__
 ![Merge3](/images/lab4/merge_request3.png)
 Choose __Submit merge request__
 
-![Merge3](/images/lab4/merge_request4.png)
+![Merge4](/images/lab4/merge_request4.png)
 Choose __Merge when pipline succeeds__
 
 
@@ -35,4 +35,7 @@ Choose __Merge when pipline succeeds__
 Wait on this screen for pipline to complete
 {{% /notice %}}
 
+When complete you will see the following update in the UI
+
+![Merge5](/images/lab4/merge_complete1.png)
 
