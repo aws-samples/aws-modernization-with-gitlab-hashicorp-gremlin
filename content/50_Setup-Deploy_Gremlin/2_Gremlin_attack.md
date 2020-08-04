@@ -34,6 +34,9 @@ To see the true results of this experiment, try going back to the AWS Console an
 
 [Deep link to EC2 Console](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#Instances:tag:Name=aws*;sort=instanceState)
 
-Was this expected? Record your findings in Gremlin.
+Expected Results:
 
+![Step 2](/images/lab5/ec2_down.png)
+
+Record your findings in Gremlin.
 
