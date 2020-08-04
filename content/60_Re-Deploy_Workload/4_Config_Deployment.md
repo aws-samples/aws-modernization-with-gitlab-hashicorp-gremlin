@@ -1,8 +1,8 @@
 +++
 
-title = "6.3 Queue and Apply plan in TFC"
+title = "6.4 Confirm Deployment in TFC"
 chapter = false
-weight = 3
+weight = 4
 +++
 
 {{% notice tip %}}
@@ -12,7 +12,7 @@ Switch to terraform tab
 Queue and Apply the new commit in terraform 
 
 Expected Output:
-![Step 6](/images/lab4/tf_apply_complete.png)
+![Step 1](/images/lab7/confirm_deployment.png)
 
 Note the outputs of you terraform run 
 
