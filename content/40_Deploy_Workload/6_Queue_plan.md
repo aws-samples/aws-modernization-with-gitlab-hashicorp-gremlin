@@ -1,8 +1,8 @@
 +++
 
-title = "4.4 Queue plan in TFC"
+title = "4.6 Queue plan in TFC"
 chapter = false
-weight = 4
+weight = 6
 +++
 
 
