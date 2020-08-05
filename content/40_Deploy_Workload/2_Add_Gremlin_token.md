@@ -29,7 +29,7 @@ touch terraform.auto.tfvars
 ```
 
 2. Double click on the file in the file browser and open it in a ide tab 
-3. Copy and paste the following two lines into the file (We will replace the 000s with the proper values in the next step)
+3. Copy and paste the following two lines into the file (We will replace the values for __team_id__ and __team_secret__ in the next step)
 
 ```
 gremlin_team_id    = "replace_with_team_id"
