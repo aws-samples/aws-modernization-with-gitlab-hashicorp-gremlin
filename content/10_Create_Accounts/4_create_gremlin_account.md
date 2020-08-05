@@ -6,7 +6,7 @@ weight = 4
 
 ## Login to Gremlin 
 
-If you do not already have a Gremlin account [Register here](https://gremlin.com/free)
+If you do not already have a Gremlin account [Register here](https://gremlin.com/aws-2020)
 
 If you are a exsiting user [Login in here](https://app.gremlin.com/login)
 
