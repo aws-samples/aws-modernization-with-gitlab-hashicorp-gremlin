@@ -3,11 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/40_setup-terraform_cloud/10_hashicorp_terrform_cloud/1_add_workspace_to_terraform_cloud.html</loc>
+    <loc>/30_setup-terraform_cloud/10_hashicorp_terrform_cloud/1_add_workspace_to_terraform_cloud.html</loc>
   </url>
   
   <url>
-    <loc>/10_getting_started/1_aws_event_engine.html</loc>
+    <loc>/40_deploy_workload/1_create_workshop_keypair.html</loc>
+  </url>
+  
+  <url>
+    <loc>/50_setup-deploy_gremlin/1_gremlin_dashboard.html</loc>
+  </url>
+  
+  <url>
+    <loc>/60_re-deploy_workload/1_destory_vault.html</loc>
+  </url>
+  
+  <url>
+    <loc>/70_check_deployment/1_vault_token.html</loc>
+  </url>
+  
+  <url>
+    <loc>/80_re-deploy_gremlin-attack/1_gremlin_dashboard.html</loc>
+  </url>
+  
+  <url>
+    <loc>/01_getting_started/1_aws_event_engine.html</loc>
   </url>
   
   <url>
@@ -15,59 +35,123 @@
   </url>
   
   <url>
-    <loc>/20_create_accounts/1_launch_aws_cloud9_ide.html</loc>
+    <loc>/10_create_accounts/1_launch_aws_cloud9_ide.html</loc>
   </url>
   
   <url>
-    <loc>/30_setup-gitlab/10_gitlab/1_create_ssh_key.html</loc>
+    <loc>/20_setup-gitlab/1_create_ssh_key.html</loc>
   </url>
   
   <url>
-    <loc>/40_setup-terraform_cloud/10_hashicorp_terrform_cloud/2_setup_terraform_varibles.html</loc>
+    <loc>/30_setup-terraform_cloud/10_hashicorp_terrform_cloud/2_setup_terraform_varibles.html</loc>
   </url>
   
   <url>
-    <loc>/10_getting_started/2_aws_workshop_account.html</loc>
+    <loc>/40_deploy_workload/2_add_gremlin_token.html</loc>
   </url>
   
   <url>
-    <loc>/20_create_accounts/2_create_gitlab_account.html</loc>
+    <loc>/50_setup-deploy_gremlin/2_gremlin_attack.html</loc>
   </url>
   
   <url>
-    <loc>/30_setup-gitlab/10_gitlab/2_upload_key_to_gitlab.html</loc>
+    <loc>/60_re-deploy_workload/2_checkin_vault_ha__tf_template.html</loc>
   </url>
   
   <url>
-    <loc>/30_setup-gitlab/10_gitlab/3_create_gitlab_repo.html</loc>
+    <loc>/60_re-deploy_workload/3_check_pipelines.html</loc>
   </url>
   
   <url>
-    <loc>/30_setup-gitlab/10_gitlab/4_create_gitlab_ci.html</loc>
+    <loc>/80_re-deploy_gremlin-attack/2_gremlin_attack.html</loc>
   </url>
   
   <url>
-    <loc>/20_create_accounts/3_create_hashicop_terraform_account.html</loc>
+    <loc>/01_getting_started/2_aws_workshop_account.html</loc>
   </url>
   
   <url>
-    <loc>/20_create_accounts/4_create_gremlin_account.html</loc>
+    <loc>/10_create_accounts/2_create_gitlab_account.html</loc>
   </url>
   
   <url>
-    <loc>/10_getting_started.html</loc>
+    <loc>/20_setup-gitlab/2_upload_key_to_gitlab.html</loc>
   </url>
   
   <url>
-    <loc>/20_create_accounts.html</loc>
+    <loc>/40_deploy_workload/3_checkin_vault_single_node_tf.html</loc>
   </url>
   
   <url>
-    <loc>/30_setup-gitlab.html</loc>
+    <loc>/40_deploy_workload/4_inspect_pipline.html</loc>
   </url>
   
   <url>
-    <loc>/40_setup-terraform_cloud.html</loc>
+    <loc>/20_setup-gitlab/3_create_clone_gitlab_repo.html</loc>
+  </url>
+  
+  <url>
+    <loc>/10_create_accounts/3_create_hashicop_terraform_account.html</loc>
+  </url>
+  
+  <url>
+    <loc>/60_re-deploy_workload/4_config_deployment.html</loc>
+  </url>
+  
+  <url>
+    <loc>/20_setup-gitlab/4_create_develop_branch.html</loc>
+  </url>
+  
+  <url>
+    <loc>/10_create_accounts/4_create_gremlin_account.html</loc>
+  </url>
+  
+  <url>
+    <loc>/40_deploy_workload/5_create_merge_request.html</loc>
+  </url>
+  
+  <url>
+    <loc>/40_deploy_workload/6_queue_plan.html</loc>
+  </url>
+  
+  <url>
+    <loc>/90_cleanup.html</loc>
+  </url>
+  
+  <url>
+    <loc>/01_getting_started.html</loc>
+  </url>
+  
+  <url>
+    <loc>/10_create_accounts.html</loc>
+  </url>
+  
+  <url>
+    <loc>/20_setup-gitlab.html</loc>
+  </url>
+  
+  <url>
+    <loc>/30_setup-terraform_cloud.html</loc>
+  </url>
+  
+  <url>
+    <loc>/40_deploy_workload.html</loc>
+  </url>
+  
+  <url>
+    <loc>/50_setup-deploy_gremlin.html</loc>
+  </url>
+  
+  <url>
+    <loc>/60_re-deploy_workload.html</loc>
+  </url>
+  
+  <url>
+    <loc>/70_check_deployment.html</loc>
+  </url>
+  
+  <url>
+    <loc>/80_re-deploy_gremlin-attack.html</loc>
   </url>
   
   <url>
