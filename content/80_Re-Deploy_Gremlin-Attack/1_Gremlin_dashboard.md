@@ -13,5 +13,4 @@ __Switch to Gremlin tab__
 
 See that Vault HA nodes are registered
 
-
-![Step 1](/images/lab8/gremlin_dashnoard_ha-targets.png)
+![Step 1](/images/lab8/gremlin_attack-ha.png)
