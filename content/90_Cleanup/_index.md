@@ -1,7 +1,7 @@
 +++
-title = "Clean Up"
+title = "Lab9. Clean Up"
 chapter = true
-weight = 10
+weight = 90
 +++
 
 # Clean Up
