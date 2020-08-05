@@ -38,5 +38,20 @@ Expected Results:
 
 ![Step 2](/images/lab5/ec2_down.png)
 
+{{% notice tip %}}
+Leave this tab open and Switch back to the terraform console
+
+{{% /notice %}}
 Record your findings in Gremlin.
+
+Attempt to connect to the Pet Clinc app using the __Web_Server_HTTPAddress__
+
+![Step 2](/images/lab5/petclinic-url.png)
+
+You will notice that __Gremlin__ has uncovered a single point of failure with in our Vault deployment! 
+
+__In the next lab we will redeploy the lab with Vault in an HA mode to protect against this failure__
+
+
+
 
