@@ -6,5 +6,5 @@ weight: 50
 
 # Gremlin Chaos Engineering tests
 
-1. In this lab we will attack out single node Vault deployement
+1. In this lab we will attack our single node Vault deployement
 
