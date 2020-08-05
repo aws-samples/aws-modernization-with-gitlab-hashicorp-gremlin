@@ -71,7 +71,7 @@ We will use this logs to inspect the Vault operation as well as the health of th
 Leave this tab open and Switch back to the terraform console
 {{% /notice %}}
 
-Open a browser to the __Web_Server_HTTP__Address__
+Open a browser to the __Web_Server_HTTP_Address__
 ![Step 5](/images/lab7/petclinic-url.png)
 
 Expected Result:
