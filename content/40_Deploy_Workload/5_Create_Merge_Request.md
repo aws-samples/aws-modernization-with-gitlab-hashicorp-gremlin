@@ -28,14 +28,14 @@ Choose __Compare branches and continue__
 Choose __Submit merge request__
 
 ![Merge4](/images/lab4/merge_request4.png)
-Choose __Merge when pipline succeeds__
+Choose __Merge when pipeline succeeds__
 
 
 {{% notice warning %}}
-Wait on this screen for pipline to complete
+Wait on this screen for pipeline to complete
 {{% /notice %}}
 
-When complete you will see the following update in the UI
+When complete, you will see the following update in the GitLab UI
 
 ![Merge5](/images/lab4/merge_complete1.png)
 
