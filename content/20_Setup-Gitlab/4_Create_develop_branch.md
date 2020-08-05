@@ -1,4 +1,4 @@
-+++ title = "Create develop branch in Gitlab"
++++ title = "1.4 Create develop branch"
 chapter = false
 weight = 4
 +++

@@ -1,7 +1,7 @@
 ---
 title: "Lab2. Setup Gitlab"
 chapter: true
-weight: 30
+weight: 20
 ---
 
 # GitLab

@@ -1,5 +1,5 @@
 +++
-title = "Create Gitlab Repo"
+title = "1.3 Create Gitlab Repo"
 chapter = false
 weight = 3
 +++

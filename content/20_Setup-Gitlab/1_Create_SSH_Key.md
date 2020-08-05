@@ -1,5 +1,5 @@
 +++
-title = "Create an SSH Key via Cloud9 "
+title = "1.1 Create an SSH Key in Cloud9 "
 chapter = false
 weight = 1
 +++
