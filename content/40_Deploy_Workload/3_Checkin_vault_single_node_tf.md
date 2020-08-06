@@ -22,7 +22,7 @@ Copy the terraform files for the single node deployment to to root of our worksh
 cp -rf /tmp/lab4/workshop_content/single-vault/* .
 ```
 
-Add file to git and commit to Gitlab
+Add file to git and commit to GitLab
 
 ```
 git add --all .

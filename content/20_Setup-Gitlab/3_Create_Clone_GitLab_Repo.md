@@ -4,7 +4,7 @@ chapter = false
 weight = 3
 +++
 {{% notice tip %}}                                                                                  
-Switch to Gitlab tab
+Switch to GitLab tab
 {{% /notice %}}
 
 #### Create Repo via Import

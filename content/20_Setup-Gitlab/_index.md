@@ -7,5 +7,5 @@ weight: 20
 # GitLab
 
 1. Create SSH Keys
-2. Upload SSH Keys to Gitlab
-3. Create & Clone Gitlab Repo
+2. Upload SSH Keys to GitLab
+3. Create & Clone GitLab Repo

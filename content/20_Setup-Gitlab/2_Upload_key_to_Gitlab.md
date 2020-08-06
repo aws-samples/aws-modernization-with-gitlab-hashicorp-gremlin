@@ -4,7 +4,7 @@ chapter = false
 weight = 2
 +++
 
-Navigate to the profile section of gitlab via this link [https://gitlab.com/profile/keys](https://gitlab.com/profile/keys)
+Navigate to the profile section of GitLab via this link [https://gitlab.com/profile/keys](https://gitlab.com/profile/keys)
 
 1. Paste the key into the textbox provided
 2. Title the key `cloud9-ide-key`

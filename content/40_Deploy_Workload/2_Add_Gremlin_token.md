@@ -10,7 +10,7 @@ weight = 2
 Switch to Cloud9 tab
 {{% /notice %}}
 
-Change working directory to our workshop on Gitlab 
+Change working directory to our workshop on GitLab 
 ```
 cd ~/environment/aws-devops-workshop
 ```

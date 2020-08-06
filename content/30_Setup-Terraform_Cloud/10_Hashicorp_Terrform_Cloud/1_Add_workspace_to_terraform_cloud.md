@@ -4,7 +4,7 @@ chapter = false
 weight = 1
 +++
 
-#### Connect Gitlab as VCS source
+#### Connect GitLab as VCS source
 
 Switch tabs to Terraform Cloud (https://app.terraform.io/)
 
@@ -20,13 +20,13 @@ Click __Connect to a diffrent VCS__
 Locate the "Redirect URI" and copy it to your clipboard; you'll paste it in the next step.
 
 {{% notice note %}}
-__Leave the below show page open in a browser tab.__ In the next step you will copy values from this page and in later steps you generate a __Application ID__ and __Secret__ from Gitlab
+__Leave the below show page open in a browser tab.__ In the next step you will copy values from this page and in later steps you generate a __Application ID__ and __Secret__ from GitLab
 {{% /notice %}}
 
 
 
 {{% notice tip %}}
-Switch to the Gitlab tab
+Switch to the GitLab tab
 {{% /notice %}}
 
 Navigate to Profiles > Application  https://gitlab.com/profile/applications
@@ -90,7 +90,7 @@ Copy and Paste this key into __Private SSH key__ field
 Expected Output:
 ![Step 10](/images/lab3/completed_adding_vcs_provider.png)
 
-#### Setup VCS integration from Gitlab
+#### Setup VCS integration from GitLab
 
 From the Workspaces tab select __+ New Workspace__ 
 
