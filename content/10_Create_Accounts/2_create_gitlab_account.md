@@ -1,5 +1,5 @@
 +++
-title = "Gitlab"
+title = "1.2 Gitlab"
 chapter = false
 weight = 2
 +++
