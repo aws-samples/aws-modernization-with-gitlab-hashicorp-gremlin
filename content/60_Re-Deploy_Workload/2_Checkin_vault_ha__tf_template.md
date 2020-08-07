@@ -10,12 +10,12 @@ weight = 2
 Switch to Cloud9 tab
 {{% /notice %}}
 
-Change working directory to our workshop on Gitlab 
+Change working directory to our workshop on GitLab 
 ```
 cd ~/environment/aws-devops-workshop
 ```
 
-Now we will add our HA terraform code to the terraform cloud workspace via Gitlab
+Now we will add our HA terraform code to the terraform cloud workspace via GitLab
 
 
 {{% notice info %}}
@@ -35,7 +35,7 @@ Copy the terraform files for the HA deployment to the root of our workshop repo
 cp -rf /tmp/lab6/workshop_content/ha-vault/* .
 ```
 
-Add file to git and commit to Gitlab
+Add file to git and commit to GitLab
 
 ```
 git add --all .

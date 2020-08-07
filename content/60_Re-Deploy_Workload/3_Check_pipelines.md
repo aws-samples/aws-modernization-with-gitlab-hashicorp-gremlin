@@ -6,10 +6,10 @@ weight = 2
 +++
 
 {{% notice tip %}}
-Switch to Gitlab tab
+Switch to GitLab tab
 {{% /notice %}}
 
-From the Gitlab menu: Choose __CI/CD__ > __Pipelines__
+From the GitLab menu: Choose __CI/CD__ > __Pipelines__
 
 ![Step 2](/images/lab6/new_ci_run.png)
 

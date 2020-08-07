@@ -1,10 +1,10 @@
 +++
-title = "Terraform"
+title = "1.3 Terraform"
 chapter = false
 weight = 3
 +++
 
-## Login to Terraform cloud
+## Login to Terraform Cloud
 
 If you do not already have a Terraform Cloud account [Register here](https://app.terraform.io/signup/account)
 

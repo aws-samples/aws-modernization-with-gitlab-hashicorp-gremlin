@@ -1,14 +1,14 @@
 +++
-title = "Gitlab"
+title = "1.2 Gitlab"
 chapter = false
 weight = 2
 +++
 
-## Login to Gitlab
+## Login to GitLab
 
 If you are a exsiting user [Login in here](https://gitlab.com/users/sign_in)
 
-If you do not already have a Gitlab account, you can [register for a free 30 day trial](https://about.gitlab.com/free-trial/). 
+If you do not already have a GitLab account, you can [register for a free 30 day trial](https://about.gitlab.com/free-trial/). 
 
 {{% notice tip %}}
 You can register for an account only if desired; the trial is for full GitLab features for 30 day. After 30 days, a trial will automatically transition to user account so there is no harm in trying out GitLab for free! The instructions below are for trial signup
@@ -26,7 +26,7 @@ After filling in the information, and clicking on the continue button, you will 
 
 ![Step 3](/images/getting_started/gitlab-trial-screen-2.png)
 
-The last step is important if you would like to share this trial with other collaborators. If you would like to invite others then please create a group. The group will have ["Gold" status](https://about.gitlab.com/pricing/gitlab-com/feature-comparison/) that includes all features of Gitlab enabled. 
+The last step is important if you would like to share this trial with other collaborators. If you would like to invite others then please create a group. The group will have ["Gold" status](https://about.gitlab.com/pricing/gitlab-com/feature-comparison/) that includes all features of GitLab enabled. 
 
 ![Step 4](/images/getting_started/gitlab-trial-screen-3.png)
 

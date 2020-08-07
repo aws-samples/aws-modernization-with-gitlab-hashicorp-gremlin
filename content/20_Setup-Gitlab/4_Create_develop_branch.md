@@ -1,4 +1,4 @@
-+++ title = "1.4 Create develop branch"
++++ title = "2.4 Create develop branch"
 chapter = false
 weight = 4
 +++
@@ -15,7 +15,7 @@ git config --global user.email "email@domain.com"
 Create a develop branch and set the upstream 
 
 {{% notice warning %}}
-Make sure to replace the your-user-name with your Gitlab username 
+Make sure to replace the your-user-name with your GitLab username 
 {{% /notice %}}
 
 
