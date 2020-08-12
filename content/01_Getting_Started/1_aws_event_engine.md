@@ -1,35 +1,34 @@
 +++
-title = "AWS Event Engine"
+title = "0.1 AWS Event Engine"
 chapter = false
 weight = 1
 +++
 
+__To complete this workshop, you are provided with an AWS account via the AWS Event Engine service. 
+You will be provide a bit.yl (provided by event staff). This link will take you to the__ _AWS Hash Code Request App_ 
 
-## Logging into AWS Event Engine
+![hc-request](/images/getting_started/request-hashcode.png)
 
-To complete this workshop, you are provided with an AWS account via the AWS Event Engine service. A 12-digit hash will be provided to you by event staff - this is your unique access code.
-eg:
-## `e8476543c00e`
+1. Enter you __full name__
 
+2. Click __Submit__
 
-1. Go to https://dashboard.eventengine.run to log into AWS Event Engine.
+Expected Output:
+![hc-request-output](/images/getting_started/request-hashcode-output.png)
 
-![Step 1](/images/getting_started/c9-step1.png)
+Go to Event Engine Dashboard eventengine via the __link provided__
 
-2. Enter your unique 12-digit hash code and choose *Accept Terms & Login*.
-
-![Step 2](/images/getting_started/c9-step2.png)
-
-3. Choose **AWS Console**, then **Open AWS Console**.
-
+{{% notice warning %}}
 This account will expire at the end of the workshop and the all the resources created will be automatically deprovisioned. You will not be able to access this account after today.
+{{% /notice %}}
 
-## Region selection
+![ee-dashboard](/images/getting_started/team_dashboard.png)
 
-Use a single region for the duration of this workshop. This workshop supports the following regions:
 
-- us-east-1 (N. Virginia)
+![open-aws-console](/images/getting_started/open-aws-console.png)
 
-Please select `N. Virginia` in the top right corner.
+Choose **AWS Console**, then **Open AWS Console**.
 
-![Step 3](/images/getting_started/c9-step3.png)
+{{% notice tip %}}
+__DO NOT CLOSE THIS TAB__ Leave this tab open! 
+{{% /notice %}}

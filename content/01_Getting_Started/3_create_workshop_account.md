@@ -1,15 +1,10 @@
 +++
-title = "Create AWS Workshop Account"
+title = "0.3 Create AWS Workshop Account"
 chapter = false
-weight = 2
+weight = 3
 +++
 {{% notice warning %}}
 Your account must have the ability to create new IAM roles and scope other IAM permissions.
-{{% /notice %}}
-
-{{% notice note %}}
-__MAKE SURE ARE WORKING IN THE  us-east-1 REGION__ 
-https://console.aws.amazon.com/console/home?region=us-east-1
 {{% /notice %}}
 
 ## Create an account 
