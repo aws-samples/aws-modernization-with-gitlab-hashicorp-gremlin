@@ -21,7 +21,7 @@ Navigate to the Vault UI:
 Leave this tab open and Switch to open the __AWS Secrets Manager Console__
 {{% /notice %}}
 
-[Deep Link to AWS Secrets Manager](https://console.aws.amazon.com/secretsmanager/home?region=us-east-1#/listSecrets)
+[Deep Link to AWS Secrets Manager](https://console.aws.amazon.com/secretsmanager/home?region=us-west-2#/listSecrets)
 
 Select the __Secret name__ (Vault-Workshop-vault-secrets-?????)
 

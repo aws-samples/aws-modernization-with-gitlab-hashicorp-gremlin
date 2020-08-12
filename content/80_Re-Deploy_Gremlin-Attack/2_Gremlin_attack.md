@@ -29,7 +29,7 @@ Run the same Shutdown add the we previously executed
 
 ![Step 1](/images/lab8/gremlin_unleash.png)
 
-[Deep Link to EC2 Console](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#Instances:tag:Name=Vault-Workshop-vault-server;sort=instanceState)
+[Deep Link to EC2 Console](https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#Instances:tag:Name=Vault-Workshop-vault-server;sort=instanceState)
 
 We should see that Gremlin has shutdown one of our Vault Nodes
 

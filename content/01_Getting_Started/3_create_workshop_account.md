@@ -14,7 +14,7 @@ Once you have an AWS account, ensure you are following the remaining workshop st
 as an **IAM user** with administrator access to the AWS account
 {{% /notice %}}
 
-[Deep link: to IAM Console](https://console.aws.amazon.com/iam/home?region=us-east-1#/users$new)
+[Deep link: to IAM Console](https://console.aws.amazon.com/iam/home?region=us-west-2#/users$new)
 
 3. Enter the user details:
   - Set you Access type to allow Programmatic access and Console access

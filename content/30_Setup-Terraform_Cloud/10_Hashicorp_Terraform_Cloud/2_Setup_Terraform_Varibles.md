@@ -53,7 +53,7 @@ Click __Save variable__
 
 #### Set the Default Region to workshop region
 
-Set  Key`AWS_DEFAULT_REGION`  set to `us-east-1`
+Set  Key`AWS_DEFAULT_REGION`  set to `us-west-2`
 
 Click __Save variable__
 

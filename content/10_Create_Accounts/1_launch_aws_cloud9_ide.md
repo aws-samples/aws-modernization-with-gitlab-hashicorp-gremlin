@@ -15,7 +15,7 @@ For this workshop we will be using `us-west-2` (All links in the lab instruction
 
 **:white_check_mark: Step-by-step Instructions**
 
-1. From the AWS Management Console, Select **Services > Cloud9** under Developer Tools [Click here for deeplink to Cloud9](https://us-east-1.console.aws.amazon.com/cloud9/home/product)
+1. From the AWS Management Console, Select **Services > Cloud9** under Developer Tools [Click here for deeplink to Cloud9](https://us-west-2.console.aws.amazon.com/cloud9/home/product)
 
 ![Step 4](/images/getting_started/c9-step4.png)
 
