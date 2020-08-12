@@ -15,8 +15,8 @@ Parameters:
     ConstraintDescription: must be a valid DNS zone name.
   CertificateArn:
     Type: String
-    Default:  arn:aws:acm:us-east-1:497025854095:certificate/491991ad-c0b4-4793-98a1-dee54cc3a095
-    Description: ARN of a certificate in us-east-1 as its needed for a CloudFront Distribution
+    Default:  arn:aws:acm:us-west-2:497025854095:certificate/491991ad-c0b4-4793-98a1-dee54cc3a095
+    Description: ARN of a certificate in us-west-2 as its needed for a CloudFront Distribution
     AllowedPattern: "arn:aws:acm:.*"
   OriginAccessID:
     Type: String

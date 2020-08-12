@@ -23,7 +23,7 @@ The git repo you cloud9 prompt will show your git branch in brackets
 example:*aws-devops-workshop __(develop)__ $*
 {{% /notice %}}
 
-Clone the following repo into the /tmp dir on cloud9
+Clone the following repo into the /tmp dir on Cloud9
 
 ```
 git clone https://github.com/aws-quickstart/workshop-hashicorp-vault.git /tmp/lab6

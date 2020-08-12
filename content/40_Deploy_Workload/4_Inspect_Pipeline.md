@@ -10,13 +10,13 @@ weight = 3
 Switch to Git lab
 {{% /notice %}}
 
-From the GitLab Menu: Choose __CI/CD__ > __Piplines__
+From the GitLab Menu: Choose __CI/CD__ > __Pipelines__
 
 ![Pipelines](/images/lab4/check_pipelines.png)
 
 
 {{% notice note %}}
-Wait for the pipline to complete before proceeding
+Wait for the pipeline to complete before proceeding
 {{% /notice %}}
 
 

@@ -18,7 +18,7 @@ Copy the values of __aws_access_key_id__
 
 
 {{% notice note %}}
-__Leave this tab open we will load the credentials into terraform cloud9 in the next step__
+__Leave this tab open we will load the credentials into Terraform Cloud in the next step__
 {{% /notice %}}
 
 #### Add AWS credentials to terraform Cloud  
@@ -53,7 +53,7 @@ Click __Save variable__
 
 #### Set the Default Region to workshop region
 
-Set  Key`AWS_DEFAULT_REGION`  set to `us-east-1`
+Set  Key`AWS_DEFAULT_REGION`  set to `us-west-2`
 
 Click __Save variable__
 

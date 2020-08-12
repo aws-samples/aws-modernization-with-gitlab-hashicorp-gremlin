@@ -11,11 +11,11 @@ AWS Cloud9 is a cloud-based integrated development environment (IDE) that lets y
 
 **Cloud9 works best with Chrome or Firefox, not Safari. It cannot be used from a tablet.**
 
-For this workshop we will be using `us-east-1` (All links in the lab instructions will be pointed to this region)
+For this workshop we will be using `us-west-2` (All links in the lab instructions will be pointed to this region)
 
 **:white_check_mark: Step-by-step Instructions**
 
-1. From the AWS Management Console, Select **Services > Cloud9** under Developer Tools [Click here for deeplink to c9](https://us-east-1.console.aws.amazon.com/cloud9/home/product)
+1. From the AWS Management Console, Select **Services > Cloud9** under Developer Tools [Click here for deeplink to Cloud9](https://us-west-2.console.aws.amazon.com/cloud9/home/product)
 
 ![Step 4](/images/getting_started/c9-step4.png)
 
@@ -70,7 +70,7 @@ Set __AWS ACCESS KEY ID__  Paste ACCESS KEY (Copy from open tab)
 
 Set __AWS SECRET ACCESS KEY__  Paste SECRET KEY (Copy from open tab)
 
-Set __Default REGION NAME__ to : `us-east-1`
+Set __Default REGION NAME__ to : `us-west-2`
 
 Set __Default OUTPUT FORMAT__ to : None (Just hit enter)
 
@@ -80,8 +80,8 @@ Expected Output:
 
 Add AWS_REGION Variable to bash_profile
 ```
-echo "export AWS_REGION=us-east-1" | tee -a ~/.bash_profile
-export AWS_REGION=us-east-1
+echo "export AWS_REGION=us-west-2" | tee -a ~/.bash_profile
+export AWS_REGION=us-west-2
 ```
 
 ####  Validate the IAM role
@@ -99,5 +99,5 @@ If credentials do not reflect the __workshop user__, <span style="color: red;">*
 {{% /notice %}}
 
 {{% notice tip %}}
-Leave cloud9 open we will be using cloud9 through out this workshop
+Leave Cloud9 open we will be using cloud9 through out this workshop
 {{% /notice %}}

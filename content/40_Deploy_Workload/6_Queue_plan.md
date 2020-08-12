@@ -7,7 +7,7 @@ weight = 6
 
 
 {{% notice tip %}}
-Switch to terraform tab
+Switch to Terraform tab
 {{% /notice %}}
 
 ![Step 1](/images/lab4/queue_plan.png)
@@ -28,7 +28,7 @@ Stay on this screen till the apply completes
 Expected Output:
 ![Step 6](/images/lab4/tf_apply_complete.png)
 
-Note the outputs of you terraform run 
+Note the outputs of you Terraform run 
 
 
 Apply complete! Resources: 33 added, 0 changed, 0 destroyed.

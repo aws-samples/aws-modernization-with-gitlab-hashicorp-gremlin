@@ -31,7 +31,7 @@ Switch to the GitLab tab
 
 Navigate to Profiles > Application  https://gitlab.com/profile/applications
 
-1. In the Name field enter `AWS Dev Ops Workshop`
+1. In the Name field enter `AWS DevOps Workshop`
 
 2. Paste __Redirect URI__ (Which should be in you clipboard from the previous step)
 
@@ -57,7 +57,7 @@ __Switch to the Terraform Tab__
 {{% /notice %}}
 
 
-1. Set the Name to: AWS Dev Ops Workshop (optional)
+1. Set the Name to: `AWS DevOps Workshop` (optional)
 
 2. Paste the __Application ID__ (should be in your clipboard)
 
