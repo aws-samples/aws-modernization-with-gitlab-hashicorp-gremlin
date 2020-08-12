@@ -42,7 +42,7 @@ Switch to the Vault UI
 
 Login using the Root Token
 
-From the menu: Go to __Policies__ > __workshoppp__
+From the menu: Go to __Policies__ > __workshop__
 
 You will see how the policy for mysql password rotation is defined
 
@@ -55,7 +55,7 @@ Expected Result:
 Leave this tab open and Switch to open the __AWS CloudWatch Console__
 {{% /notice %}}
 
-[Deep Link to AWS CloudWatch](https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#logsV2:log-groups)
+[Deep Link to AWS CloudWatch](https://console.aws.amazon.com/cloudwatch/home?region=us-west-2#logsV2:log-groups)
 
 ![Step 5](/images/lab7/cw-logs.png)
 

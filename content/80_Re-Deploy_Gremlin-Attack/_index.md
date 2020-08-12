@@ -4,6 +4,6 @@ chapter: true
 weight: 70
 ---
 
-# Gremlin Chaos Engineering tests
+# Gremlin Chaos Engineering Tests
 
 1. In this lab we will attack our Vault HA deployement

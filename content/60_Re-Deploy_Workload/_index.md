@@ -4,7 +4,7 @@ chapter: true
 weight: 60
 ---
 
-# Deploy Vault in  HA mode
+# Deploy Vault in HA mode
 
 1. In this lab we will redeploy Vault as an HA cluster along with the same example application
 

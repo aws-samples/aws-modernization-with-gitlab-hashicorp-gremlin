@@ -10,4 +10,4 @@ weight: 70
 
 2. Next, we will use the __Vault Token__ to connect to the __Vault UI__
 
-3. Finaly, we will look at Cloudwatch to access the Vault operations logs
+3. Finally, we will look at Cloudwatch to access the Vault operations logs

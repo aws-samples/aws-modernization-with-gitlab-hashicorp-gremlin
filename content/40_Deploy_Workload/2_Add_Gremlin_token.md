@@ -65,7 +65,7 @@ Click the __x__ on the terraform_auto.tfvars tab to clone (Click Save whem promp
 ![Step 2](/images/lab4/c9_save.png)
 
 
-Commit you terraform Vars
+Commit your Terraform variables
 ```
 git add terraform.auto.tfvars
 git commit -a -m' Add Gremin token as terraform vars'

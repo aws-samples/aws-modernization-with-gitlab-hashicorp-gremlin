@@ -16,9 +16,7 @@ You can register for an account only if desired; the trial is for full GitLab fe
 
 ![Step 1](/images/getting_started/gitlab-homepage.png?height=300px)
 
-A few screens will be presented. Please fill these out. 
-
-Screen 1:
+A few screens will be presented before an email confirmation is sent to the email account you choose to use. Please fill these out:
 
 ![Step 2](/images/getting_started/gitlab-trial-screen-1.png?width=600px)
 

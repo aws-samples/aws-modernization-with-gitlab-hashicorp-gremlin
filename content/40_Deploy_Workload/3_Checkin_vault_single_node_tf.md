@@ -10,13 +10,13 @@ weight = 3
 Switch to Cloud9 tab
 {{% /notice %}}
 
-Clone the following repo into the /tmp dir on cloud9
+Clone the following repo into the /tmp dir on Cloud9
 
 ```
 git clone https://github.com/aws-quickstart/workshop-hashicorp-vault.git /tmp/lab4
 ```
 
-Copy the terraform files for the single node deployment to to root of our workshop repo
+Copy the Terraform files for the single node deployment to to root of our workshop repo
 
 ```
 cp -rf /tmp/lab4/workshop_content/single-vault/* .

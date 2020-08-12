@@ -6,7 +6,7 @@ weight = 1
 +++
 
 {{% notice tip %}}
-__Switch to  Cloud9 tab__
+__Switch to Cloud9 tab__
 {{% /notice %}}
 
 #### Create a workshop keypair
