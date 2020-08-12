@@ -31,7 +31,7 @@ git push --set-upstream origin develop
 Switch to Cloud9 tab
 {{% /notice %}}
 
-Under the github UI Under __CI/CD > Pipelines__  You will see the following stages
+Under the GitLab UI Under __CI/CD > Pipelines__  You will see the following stages
 
 ![Pipelines](/images/lab2/gitlab_pipelines.png)
 

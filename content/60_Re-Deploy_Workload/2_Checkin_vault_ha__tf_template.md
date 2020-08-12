@@ -39,7 +39,7 @@ Add file to git and commit to GitLab
 
 ```
 git add --all .
-git commit -a -m'Re-Deplpy Vault HA deployment'
+git commit -a -m 'Re-Deplpy Vault HA deployment'
 git push 
 ```
 
