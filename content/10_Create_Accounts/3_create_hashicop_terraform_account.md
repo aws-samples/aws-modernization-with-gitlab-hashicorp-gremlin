@@ -4,19 +4,31 @@ chapter = false
 weight = 3
 +++
 
-## Login to Terraform Cloud
-
-If you do not already have a Terraform Cloud account [Register here](https://app.terraform.io/signup/account)
-
-If you are a exsiting user [Login in here](https://app.terraform.io/)
-
-Create organization name it `aws-devops-workshop`. 
+#### Terraform Cloud Create/Register
 
 {{% notice note %}}
-If you plan on reusing this org you can use git username. The organization name does not effect the lab instructions
+If you are a existing user [Login here](https://terraform.io/) and proceed to __Step 2:__ Create organization
 {{% /notice %}}
 
-![Step 1](/images/getting_started/tf_cloud_org_create.png)
+[Register here](https://terraform.io/)
+![tf_register1](/images/lab1/tf_register1.png)
+
+Click on __Sign up for Cloud__
+
+![tf_register2](/images/lab1/tf_register2.png)
+
+a. Enter a __Username__ 
+
+b. Enter an __Email__
+
+c. Enter a __Password__
+
+d. Choose __Create account__
+
+#### Create Terraform organization
+2. Create organization name it `aws-devops-workshop`. 
+
+![create-tf-org](/images/getting_started/tf_cloud_org_create.png)
 
 
 {{% notice tip %}}
