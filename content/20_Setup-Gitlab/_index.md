@@ -1,5 +1,5 @@
 ---
-title: "Lab2. Setup Gitlab"
+title: "Lab2. Setup GitLab"
 chapter: true
 weight: 20
 ---

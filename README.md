@@ -1,6 +1,6 @@
 
 
-# Gitlab Hashicorp Gremlin Workshop
+# GitLab Hashicorp Gremlin Workshop
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: "AWS Modernization Workshop with Gitlab, Hashicorp, & Gremlin"
+title: "AWS Modernization Workshop with GitLab, Hashicorp, & Gremlin"
 chapter: true
 weight: 1
 ---
