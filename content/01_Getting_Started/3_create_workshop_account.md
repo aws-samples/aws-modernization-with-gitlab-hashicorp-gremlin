@@ -32,16 +32,14 @@ as an **IAM user** with administrator access to the AWS account
 
 5. Click to create the new user:
 
-
-
 {{% notice tip %}}
 Leave this tab open.  We will need these credentials in the next lab
 {{% /notice %}}
 
 ![Login URL](/images/getting_started/download-creds.png )
 
-1. Click Show access key 
+1. Click __Show Access Key__
 
-2. Click Show secret key 
+2. Click __Show Secret Key__
 
-3. Click __Download csv__ to save the credentials to your workstation
+3. Click __Download .csv__ to save the credentials to your workstation
