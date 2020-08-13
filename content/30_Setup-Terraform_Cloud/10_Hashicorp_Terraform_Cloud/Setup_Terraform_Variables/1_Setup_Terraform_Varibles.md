@@ -1,8 +1,8 @@
 +++
 
-title = "3.1. Setup Terraform Varibles"
+title = "3.x Setup Terraform Varibles"
 chapter = false
-weight = 2
+weight = 1
 +++
 
 {{% notice tip %}}
