@@ -9,7 +9,9 @@ weight = 1
 AWS Cloud9 is a cloud-based integrated development environment (IDE) that lets you write, run, and debug your code with just a browser. It includes a code editor, debugger, and terminal. Cloud9 comes pre-packaged with essential tools for popular programming languages and the AWS Command Line Interface (CLI) pre-installed so you don’t need to install files or configure your laptop for this workshop. 
 
 
-**Cloud9 works best with Chrome or Firefox, not Safari. It cannot be used from a tablet.**
+{{% notice tip %}}
+Cloud9 works best with __Chrome__ or __Firefox__, __not Safari.__ This workshop is not supported on a tablet.
+{{% /notice %}}
 
 For this workshop we will be using `us-west-2` (All links in the lab instructions will be pointed to this region)
 
