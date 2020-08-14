@@ -1,10 +1,10 @@
 ---
-title: "Lab3. Setup Terraform Cloud"
-chapter: true
-weight: 10
+title : "Lab3. Setup Terraform Cloud"
+chapter : true
+weight : 40
 ---
 
-{{% children  %}}
+{{% children depth = 3 showhidden = true %}}
 
 # Terraform
 
