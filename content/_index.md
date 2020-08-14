@@ -4,12 +4,10 @@ chapter: true
 weight: 1
 ---
 
-# DevOps Trinity Workshop
-
 ![DevOpsPartners](/images/getting_started/devops_partners.png)
 
 
-#### What we will learn in this workshop
+__What we will learn in this workshop!__
 
 ![DevOpsPartners](/images/getting_started/arch.png)
 

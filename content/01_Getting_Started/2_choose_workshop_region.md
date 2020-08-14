@@ -3,7 +3,7 @@ title = "0.2 Choose Workshop Region"
 chapter = false
 weight = 2
 +++
-## Region selection
+#### Region selection
 
 Use a single region for the duration of this workshop. This workshop supports the following regions:
 
