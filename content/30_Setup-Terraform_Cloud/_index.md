@@ -1,8 +1,10 @@
 ---
 title: "Lab3. Setup Terraform Cloud"
 chapter: true
-weight: 40
+weight: 10
 ---
+
+{{% children  %}}
 
 # Terraform
 
