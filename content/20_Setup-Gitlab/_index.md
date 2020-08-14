@@ -4,8 +4,7 @@ chapter: true
 weight: 20
 ---
 
-# GitLab
+# LAB 2
 
-1. Create SSH Keys
-2. Upload SSH Keys to GitLab
-3. Create & Clone GitLab Repo
+{{% children depth = 1 %}}
+

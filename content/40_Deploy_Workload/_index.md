@@ -1,9 +1,10 @@
 ---
 title: "Lab4. Deploy Vault (No HA)"
 chapter: true
-weight: 50
+weight: 40
 ---
 
-# Deploy Vault in non HA mode
+## LAB 4
 
-1. In this lab we will deploy a single node Vault cluster and example application called Pet Clinic
+{{% children depth = 1 %}}
+

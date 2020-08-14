@@ -4,7 +4,7 @@ chapter = true
 weight = 90
 +++
 
-# Clean Up
+####  Clean-up Lab
 From: terraform cloud got to __Settings__ > __Destruction and Deletion__ and Choose __Queue destroy plan__
 
 {{% notice tip %}}

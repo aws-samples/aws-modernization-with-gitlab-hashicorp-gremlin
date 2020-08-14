@@ -7,4 +7,4 @@ weight : 30
 
 ## Lab 3
 
-{{% children depth = 2 showhidden = true %}}
+{{% children depth = 1 %}}

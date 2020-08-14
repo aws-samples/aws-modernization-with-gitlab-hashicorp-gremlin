@@ -1,10 +1,10 @@
 ---
 title : "3.0 Configure Terraform Cloud"
 chapter : true
-weight : 31
+weight : 30
 ---
 
 
-## Lab 3.1
+## Lab 3.0
 
-{{% children depth = 1 showhidden = true %}}
+{{% children depth = 1 %}}

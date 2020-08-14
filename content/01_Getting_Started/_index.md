@@ -1,10 +1,9 @@
 +++
 title = "Lab0. Getting Started"
 chapter = true
-weight = 10
+weight = 1
 +++
 
-# Getting Started
 {{% notice note %}}
 Click [here]({{< ref "1_aws_event_engine.md" >}}) if you are at an AWS event where the Event Engine is being used
 {{% /notice %}}

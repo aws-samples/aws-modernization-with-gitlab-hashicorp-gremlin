@@ -4,7 +4,8 @@ chapter: true
 weight: 50
 ---
 
-# Gremlin Chaos Engineering tests
 
-1. In this lab we will attack our single node Vault deployement
 
+## Lab 5
+
+{{% children depth = 1 %}}
