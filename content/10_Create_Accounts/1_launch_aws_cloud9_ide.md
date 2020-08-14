@@ -1,10 +1,10 @@
 +++
 title = "1.1 Cloud9"
-chapter = false
+chapter = true
 weight = 1
 +++
 
-### Starting AWS Cloud9 IDE
+#### Starting AWS Cloud9 IDE
 
 AWS Cloud9 is a cloud-based integrated development environment (IDE) that lets you write, run, and debug your code with just a browser. It includes a code editor, debugger, and terminal. Cloud9 comes pre-packaged with essential tools for popular programming languages and the AWS Command Line Interface (CLI) pre-installed so you don’t need to install files or configure your laptop for this workshop. 
 
@@ -37,7 +37,7 @@ For this workshop we will be using `us-west-2` (All links in the lab instruction
 
 7. Review the environment settings and select **Create environment**. It will take a couple of minutes for your Cloud9 environment to be provisioned and prepared.
 
-### Setting up Cloud9 IDE
+#### Setting up Cloud9 IDE
 ![Step 7](/images/getting_started/c9-step7.png)
 
 1. Once ready, your IDE will open to a welcome screen. Below that, you should see a terminal prompt. Close the Welcome tab and drag up the terminal window to give yourself more space to work in. 
@@ -66,13 +66,18 @@ Set default credentials to use workshop user
 aws configure
 ```sh
 
-Set __AWS ACCESS KEY ID__  Paste ACCESS KEY (Copy from open tab)
+{{% notice tip %}}
+Copy the values for __AWS ACCESS KEY ID__ and __AWS SECRET ACCESS KEY__ from the AWS IAM Console. If you have accediently closed this tab you can find the credentials in the __csv file__ that you downloaded in LAB 0
+{{% /notice %}}
 
-Set __AWS SECRET ACCESS KEY__  Paste SECRET KEY (Copy from open tab)
 
-Set __Default REGION NAME__ to : `us-west-2`
+Set: __AWS ACCESS KEY ID__ < _Copy and Paste_
 
-Set __Default OUTPUT FORMAT__ to : None (Just hit enter)
+Set: __AWS SECRET ACCESS KEY__  < _Copy and Paste_
+
+Set:__Default REGION NAME__ to : `us-west-2`
+
+Set: __Default OUTPUT FORMAT__ to : None _(Just hit enter)_
 
 Expected Output:
 ![Step 9](/images/lab1/set_c9_aws_creds.png)
@@ -84,7 +89,7 @@ echo "export AWS_REGION=us-west-2" | tee -a ~/.bash_profile
 export AWS_REGION=us-west-2
 ```
 
-####  Validate the IAM role
+#### Validate the IAM user
 
 Use the [GetCallerIdentity](https://docs.aws.amazon.com/cli/latest/reference/sts/get-caller-identity.html) CLI command to validate that the Cloud9 IDE is using the correct IAM user.
 
