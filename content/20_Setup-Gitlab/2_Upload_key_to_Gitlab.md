@@ -1,6 +1,6 @@
 +++
 title = "2.2 Upload key to Gitlab"
-chapter = false
+chapter = true
 weight = 2
 +++
 

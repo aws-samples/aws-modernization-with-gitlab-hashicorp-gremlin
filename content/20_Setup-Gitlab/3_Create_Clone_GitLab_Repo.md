@@ -1,6 +1,6 @@
 +++
 title = "2.3 Create Gitlab Repo"
-chapter = false
+chapter = true
 weight = 3
 +++
 {{% notice tip %}}                                                                                  

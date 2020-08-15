@@ -1,6 +1,6 @@
 +++
 title = "2.1 Create an SSH Key in Cloud9 "
-chapter = false
+chapter = true
 weight = 1
 +++
 {{% notice tip %}}                                                                                                                          
