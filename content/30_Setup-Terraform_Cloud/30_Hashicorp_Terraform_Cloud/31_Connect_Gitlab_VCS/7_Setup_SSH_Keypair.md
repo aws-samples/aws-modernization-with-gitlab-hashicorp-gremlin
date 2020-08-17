@@ -12,6 +12,16 @@ Switch to the Cloud9 Tab
 #### Adding ssh keypair to VCS provider
 
 ```
+ssh-keygen
+```
+Grenerate a keypair using _ssh-keygen_ 
+
+>Choose default (Hit Enter 3 times)
+
+Expected Output:
+![ssh-1](/images/lab3/key-gen-output.png)
+
+```
 cat /home/ec2-user/.ssh/id_rsa
 ```
 
