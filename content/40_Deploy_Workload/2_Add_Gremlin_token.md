@@ -69,7 +69,6 @@ Commit your Terraform variables
 ```
 git add terraform.auto.tfvars
 git commit -a -m' Add Gremin token as terraform vars'
-git push
 ```
 
 
