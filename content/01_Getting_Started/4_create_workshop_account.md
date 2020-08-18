@@ -1,7 +1,7 @@
 +++
-title = "0.3 Create AWS Workshop Account"
+title = "0.4 Create AWS Workshop Account"
 chapter = false
-weight = 3
+weight = 4
 +++
 {{% notice warning %}}
 Your account must have the ability to create new IAM roles and scope other IAM permissions.

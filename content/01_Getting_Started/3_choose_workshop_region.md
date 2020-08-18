@@ -1,7 +1,7 @@
 +++
-title = "0.2 Choose Workshop Region"
+title = "0.3 Choose Workshop Region"
 chapter = false
-weight = 2
+weight = 3
 +++
 #### Region selection
 

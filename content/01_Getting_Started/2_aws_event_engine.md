@@ -1,7 +1,7 @@
 +++
-title = "0.1 AWS Event Engine"
+title = "0.2 AWS Event Engine"
 chapter = false
-weight = 1
+weight = 2
 +++
 
 __To complete this workshop, you are provided with an AWS account via the AWS Event Engine service. 
