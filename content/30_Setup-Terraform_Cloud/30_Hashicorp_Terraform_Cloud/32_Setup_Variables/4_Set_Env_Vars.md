@@ -1,13 +1,9 @@
 +++
 
-title = "3.2.3 Add Environment Vars"
+title = "3.2.4 Add Environment Vars"
 chapter = false
-weight = 3
+weight = 4
 +++
-
-{{% notice note %}}
-Switch to the Terraform Cloud tab
-{{% /notice %}}
 
 #### Add AWS credentials to terraform Cloud  
 
@@ -25,7 +21,8 @@ Click __+ Add variable__
 
 Click __Save variable__
 
-![Step 11](/images/lab3/tf_env_vars.png)
+![a-key](/images/lab3/set_a_key-vars.png)
+
 
 
 1. Set __Key__ to `AWS_SECRET_ACCESS_KEY` (Copy and paste value from Cloud9 tab)
@@ -36,7 +33,13 @@ Click __Save variable__
 
 Click __Save variable__
 
+![s-key](/images/lab3/set_s_key-vars.png)
+
 {{% notice warning %}}
 Make sure you are configuring _Enviornment Variables_ __Not Terraform Variables__ (Second section)
 {{% /notice %}}
 
+
+Expected Output:
+
+![complete-keys](/images/lab3/tf_env_vars_complete.png)
