@@ -11,13 +11,12 @@ Switch to GitLab tab
 
 From the GitLab menu: Choose __CI/CD__ > __Pipelines__
 
-![Step 2](/images/lab6/new_ci_run.png)
+![ci-run](/images/lab6/new_ci_run.png)
 
 Click on running (or passed) badge in the most recent pipline. 
 
 > Commit description will show __Re-Deploy Vault HA deployment__
 
+Expected Output:
 
-{{% notice note %}}
-Refer to the lab 4.5 (if you need a refresher)
-{{% /notice %}}
+![show-run](/images/lab6/showpipline.png)
