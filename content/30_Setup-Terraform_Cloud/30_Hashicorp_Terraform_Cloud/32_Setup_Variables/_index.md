@@ -1,5 +1,5 @@
 ---
-title : "3.2 Setup Terraform Variables"
+title : "3.2 Setup Variables"
 chapter : true
 weight : 32
 ---
