@@ -39,7 +39,6 @@ Click __Save variable__
 Make sure you are configuring _Enviornment Variables_ __Not Terraform Variables__ (Second section)
 {{% /notice %}}
 
-
 Expected Output:
 
-![complete-keys](/images/lab3/tf_env_vars_complete.png)
+![tf_vars-complete](/images/lab3/tf_vars_complete.png)
