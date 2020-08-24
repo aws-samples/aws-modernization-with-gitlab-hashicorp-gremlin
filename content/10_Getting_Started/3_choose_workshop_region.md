@@ -1,5 +1,5 @@
 +++
-title = "0.3 Choose Workshop Region"
+title = "1.3 Choose Workshop Region"
 chapter = false
 weight = 3
 +++

@@ -1,13 +1,13 @@
 +++
-title = "0.1 Workshop Schedule"
+title = "2.1 Workshop Schedule"
 chapter = false
 weight = 1
 +++
 
 |LAB #| LAB Title | Time Allocated|
 |-----|-----------|---------------|
-|Lab0 | Getting Started   | 5 min |
-|Lab1 | Create Accounts   | 15 min|
+|Lab0 | Create Accounts   | 10 min|
+|Lab1 | Getting Started   | 10 min|
 |Lab2 | Setup Gitlab      | 30 min|
 |Lab3 | Setup Terraform Cloud |30 min|
 |Lab4 | Deploy Vault (No HA)  |20 min|

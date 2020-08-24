@@ -1,5 +1,5 @@
 +++
-title = "Lab0. Getting Started"
+title = "Lab1. Getting Started"
 chapter = true
 weight = 2
 +++

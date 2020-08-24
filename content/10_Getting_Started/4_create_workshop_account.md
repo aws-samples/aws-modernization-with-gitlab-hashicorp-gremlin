@@ -1,5 +1,5 @@
 +++
-title = "0.4 Create AWS Workshop Account"
+title = "1.4 Create AWS Workshop Account"
 chapter = false
 weight = 4
 +++

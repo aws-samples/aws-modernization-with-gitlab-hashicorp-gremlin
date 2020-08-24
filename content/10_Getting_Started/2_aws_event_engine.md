@@ -1,5 +1,5 @@
 +++
-title = "0.2 AWS Event Engine"
+title = "1.2 AWS Event Engine"
 chapter = false
 weight = 2
 +++
