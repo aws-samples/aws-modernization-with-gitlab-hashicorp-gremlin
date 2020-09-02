@@ -13,9 +13,10 @@ __What we will learn in this workshop!__
 
 In this workshop we will work with __GitLab__, __Hashicorp__ and __Gremlin__ to show how to detect single points of failure within a gitflow deployment. 
 
-- **In the hands-on lab:**  We will leverage _GitLab's CI/CD Pipleline_ and _Hashicorp's Terraform Cloud_ to deploy _HashiCorp’s Vault_ in a single non HA configuration and use _Gremlin’s Chaos Engineering Platform_ to identify weakness in the while developing and prototyping. 
 
-- In the final labs will rebuild our architecture base on our learning and redploy Vault cluster using our exiting piplelines. Once deploy we will repeat our _Gremlin_ attack on our updated HA Vault Cluster detail that we have  mitigated the weakness the that were exposed during the inital prototype release.
+- **In the hands-on lab:** We will leverage GitLab’s CI/CD Pipelines and Hashicorp’s Terraform Cloud to deploy HashiCorp’s Vault in a single non HA configuration. Post deployment we will use Gremlin’s Chaos Engineering Platform to identify weakness in our sample application (pet clinic) deployment.
+
+- In the final labs, will rebuild our architecture based on our learnings and re-deploy the Vault cluster using our existing pipeline. Once deployed we will repeat our _Gremlin_ attack on the updated HA Vault Cluster to validate that we have  mitigated the weaknesses that were discovered during the initial prototype deployment.
 
 {{% notice warning %}}
 <p style='text-align: left;'>
