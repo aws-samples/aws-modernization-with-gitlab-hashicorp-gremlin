@@ -15,7 +15,7 @@ In this workshop we will work with __GitLab__, __Hashicorp__ and __Gremlin__ to 
 
 - **In the hands-on lab:**  We will leverage _GitLab's CI/CD Pipleline_ and _Hashicorp's Terraform Cloud_ to deploy _HashiCorp’s Vault_ in a single non HA configuration and use _Gremlin’s Chaos Engineering Platform_ to identify weakness in the while developing and prototyping. 
 
-- In the final labs will rebuild our architecture base on our learning and redploy Vault cluster using our exiting piplelines. Once deploy we will repeat our _Gremlin_ attack on our updated HA Vault Cluster detail that we have  mitigated the weakness the that were exposed during the inital prototype release .s
+- In the final labs will rebuild our architecture base on our learning and redploy Vault cluster using our exiting piplelines. Once deploy we will repeat our _Gremlin_ attack on our updated HA Vault Cluster detail that we have  mitigated the weakness the that were exposed during the inital prototype release.
 
 {{% notice warning %}}
 <p style='text-align: left;'>
