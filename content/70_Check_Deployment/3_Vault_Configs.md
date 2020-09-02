@@ -32,11 +32,3 @@ Here you can see when that last database credentials were rotated
 Leave this tab open and Switch back to the terraform console
 {{% /notice %}}
 
-Open a browser to the __Web_Server_HTTP_Address__
-![Step 5](/images/lab7/petclinic-url.png)
-
-Expected Result:
-
-![Step 5](/images/lab7/petclinic-app.png)
-
-
