@@ -48,6 +48,7 @@ cp remote_backend.tf /tmp
 
 Commit the changes:
 ```
+git add .
 git commit -a -m 'Setup Remote backend'
 git push
 ```
