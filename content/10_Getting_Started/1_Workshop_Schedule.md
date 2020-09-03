@@ -1,5 +1,5 @@
 +++
-title = "2.1 Workshop Schedule"
+title = "1.1 Workshop Schedule"
 chapter = false
 weight = 1
 +++
