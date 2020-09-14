@@ -1,7 +1,7 @@
 +++
-title = "1.2 Gitlab"
+title = "1.1 Gitlab"
 chapter = false
-weight = 2
+weight = 1
 +++
 
 ## Login to GitLab
@@ -14,7 +14,7 @@ If you do not already have a GitLab account, you can [register for a free 30 day
 You can register for an account only if desired; the trial is for full GitLab features for 30 day. After 30 days, a trial will automatically transition to user account so there is no harm in trying out GitLab for free! The instructions below are for trial signup
 {{% /notice %}}
 
-![gl-1](/images/lab1/gitlab_registration1.png)
+![gl-1](/images/lab1/gitlab_reg1.png)
 
 Choose __Get free trial__
 
