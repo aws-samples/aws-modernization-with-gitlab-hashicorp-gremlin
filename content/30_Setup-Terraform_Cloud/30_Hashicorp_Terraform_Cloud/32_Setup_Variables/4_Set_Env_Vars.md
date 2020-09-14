@@ -7,8 +7,6 @@ weight = 4
 
 #### Add AWS credentials to terraform Cloud  
 
-![vars](/images/lab3/configure_tf_vars.png)
-
 In the __Environment Variables__ section we will add two variables 
 
 Click __+ Add variable__
@@ -24,6 +22,7 @@ Click __Save variable__
 ![a-key](/images/lab3/set_a_key-vars.png)
 
 
+Click __+ Add variable__ (Again)
 
 1. Set __Key__ to `AWS_SECRET_ACCESS_KEY` (Copy and paste value from Cloud9 tab)
 
