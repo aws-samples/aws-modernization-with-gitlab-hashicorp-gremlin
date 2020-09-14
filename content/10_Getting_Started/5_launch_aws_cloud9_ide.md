@@ -1,7 +1,7 @@
 +++
-title = "1.1 Cloud9"
+title = "1.5 Cloud9 IDE"
 chapter = true
-weight = 1
+weight = 5
 +++
 
 #### Starting AWS Cloud9 IDE
