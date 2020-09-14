@@ -32,7 +32,7 @@ From the Gremlin Dashboard Click Attack
 
 To see the true results of this experiment, try going back to the AWS Console and see the target and its current state.  Click here to see the State on the deployed infrastructure 
 
-[Deep link to EC2 Console](https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#Instances:tag:Name=aws*;sort=instanceState)
+[Deep link to EC2 Console](https://us-west-2.console.aws.amazon.com/ec2/v2/home?region=us-west-2#Instances:search=aws;tag:Name=aws-workshop;sort=instanceState)
 
 Expected Results:
 
