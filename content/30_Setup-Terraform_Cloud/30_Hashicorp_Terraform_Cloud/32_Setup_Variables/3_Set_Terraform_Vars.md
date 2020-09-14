@@ -7,7 +7,7 @@ weight = 3
 
 #### Set the Default Region to workshop region
 
-![tf_vars](/images/lab3/tf_vars_default_region.png)
+![tf_vars](/images/lab3/configure_tf_vars-region.png)
 
 Use __Terraform Variable__ to set the default region. 
 
