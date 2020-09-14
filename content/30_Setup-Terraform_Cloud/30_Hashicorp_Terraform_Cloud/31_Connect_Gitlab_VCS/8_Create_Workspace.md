@@ -15,6 +15,9 @@ Click on the __Workspaces__ from the Terraform menu
 ![workspace-2](/images/lab3/create_workspace2.png)
 Click on the __+ New Workspace__ button
 
+![workspace-2a](/images/lab3/create_workspace2a.png)
+
+
 ![workspace-3](/images/lab3/create_workspace3.png)
 Choose __GitLab.com__
 
