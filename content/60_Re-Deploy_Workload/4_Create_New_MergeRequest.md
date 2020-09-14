@@ -6,7 +6,7 @@ weight = 4
 +++
 
 {{% notice tip %}}
-Switch to Git lab
+Switch to Git tab
 {{% /notice %}}
 
 From the GitLab Menu: Choose __Merge Request__
