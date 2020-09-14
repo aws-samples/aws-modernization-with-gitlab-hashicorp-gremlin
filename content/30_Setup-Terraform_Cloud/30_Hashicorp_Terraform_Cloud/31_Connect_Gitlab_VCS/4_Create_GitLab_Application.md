@@ -22,7 +22,9 @@ Use the Deeplink to Navigate to GitLab __Profiles > Application__
 
 3. Select __Confidential__
 
-4. Click the __Save application__ button, which creates the application and takes you to its page.
+4. Select __api__
+
+5. Click the __Save application__ button, which creates the application and takes you to its page.
 
 Expected output:
 ![Step 5](/images/lab3/gitlab_applicationid_and_secret.png)
