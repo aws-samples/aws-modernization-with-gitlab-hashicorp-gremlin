@@ -1,8 +1,8 @@
 +++
 
-title = "6.5 Create New Merge Request"
+title = "6.4 Create New Merge Request"
 chapter = false
-weight = 5
+weight = 4
 +++
 
 {{% notice tip %}}
