@@ -11,10 +11,10 @@ weight = 1
 |Lab2 | Setup Gitlab      | 30 min|
 |Lab3 | Setup Terraform Cloud |30 min|
 |Lab4 | Deploy Vault (No HA)  |20 min|
-|__BREAK__| __Use this time to catch up__| __20 min__|
+|__BREAK__| __Use this time to catch up__| __10 min__|
 |Lab5 | Gremlin Attack        |10 min|
 |Lab6 | Re-Deploy Vault (HA)  |30 min
-|__BREAK__| __Use this time to catch up__| __20 min__|
+|__BREAK__| __Use this time to catch up__| __10 min__|
 |Lab7 | Check Vault deployment |20 min|
 |Lab8 | Re-Deploy Gremlin Attack| 10 min|
 |Lab9 | Clean Up                | 10 min|           
